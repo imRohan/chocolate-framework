@@ -1,7 +1,10 @@
 //compass compile
 //sass --watch scss:css
 
+@import "header";
+@import "variables";
+@import "mixins";
 @import "normalize";
-
-
-@import "grid"
+@import "grid";
+@import "bodyStyles";
+@import "typography";

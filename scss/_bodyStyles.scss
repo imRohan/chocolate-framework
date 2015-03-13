@@ -1,0 +1,15 @@
+/* Body Styles
+----------------------------------------------*/
+html{
+	font-size: 62.5%;
+}
+body{
+	@include fontSize(6);
+	@include swissFont;
+	@include lineHeight(0);
+	font-weight: 400;
+	color: $darkFont;
+}
+
+/* /Body Styles
+----------------------------------------------*/

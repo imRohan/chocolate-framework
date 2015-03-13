@@ -1,25 +1,17 @@
-/* Grid  */
-
-$max-width: 960px;
-$screen-width: 100%;
-$one-column: 100/21.428571429*1%;
-$two-columns: 100/7.5*1%;
-$three-columns: 100/4.5454545455*1%;
-
-$small-device: 400px;
-$medium-device: 550px;
+/* Grid  
+----------------------------------------------*/
 
 .container {
     position: relative;
-    width: $screen-width;
+    width: 100%;
     max-width: $max-width;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
 }
 
-.column, columns {
-    width: $screen-width;
+.col {
+    width: 100%;
     float: left;
     box-sizing: border-box;
 }
@@ -33,52 +25,103 @@ $medium-device: 550px;
 }
 
 /* Larger than medium devices */
-@media (min-width:$medium-device){
-	.container{
-		width:80%;
-	}
-	.column, columns {
-		margin-left: 4%;
-	}
-	.column:first-child, .columns:first-child {
-		margin-left: 0;
-	}
-	.one.column, .one.columns {
-		width:$one-column;
-	}
-	.two.columns {
-		width:$two-columns;
-	}
-	.three.columns{
-		width:$three-columns;
-	}
-	.four.columns{
-		width: $four-columns;
-	}
-	.five.columns{
-		width: $four-columns;
-	}
-	.six.columns{
-		width: $four-columns;
-	}
-	.seven.columns{
-		width: $four-columns;
-	}
-	.eight.columns{
-		width: $four-columns;
-	}
-	.nine.columns{
-		width: $four-columns;
-	}
-	.ten.columns{
-		width: $four-columns;
-	}
-	.four.columns{
-		width: $four-columns;
-	}
-	.four.columns{
-		width: $four-columns;
-	}
-
+@media (min-width: $medium-device) {
+    .container {
+        width: 80%;
+    }
+    .col{
+        margin-left: 4%;
+    }
+    .col:first-child {
+        margin-left: 0;
+    }
+    .one.col {
+        width: 4.66666666667%;
+    }
+    .two.col {
+        width: 13.3333333333%;
+    }
+    .three.col {
+        width: 22%;
+    }
+    .four.col {
+        width: 30.6666666667%;
+    }
+    .five.col {
+        width: 39.3333333333%;
+    }
+    .six.col, .oneHalf.col {
+        width: 48%;
+    }
+    .seven.col {
+        width: 56.6666666667%;
+    }
+    .eight.col {
+        width: 65.3333333333%;
+    }
+    .nine.col {
+        width: 74.0%;
+    }
+    .ten.col {
+        width: 82.6666666667%;
+    }
+    .eleven.col {
+        width: 91.3333333333%;
+    }
+    .twelve.col {
+        width: 100%;
+        margin-left: 0;
+    }
+    .oneThird.col {
+        width: 30.6666666667%;
+    }
+    .twoThirds.col {
+        width: 65.3333333333%;
+    }
+    .offset-one.col {
+        margin-left: 8.66666666667%;
+    }
+    .offset-two.col {
+        margin-left: 17.3333333333%;
+    }
+    .offset-three.col {
+        margin-left: 26%;
+    }
+    .offset-four.col {
+        margin-left: 34.6666666667%;
+    }
+    .offset-five.col {
+        margin-left: 43.3333333333%;
+    }
+    .offset-six.col {
+        margin-left: 52%;
+    }
+    .offset-seven.col {
+        margin-left: 60.6666666667%;
+    }
+    .offset-eight.col {
+        margin-left: 69.3333333333%;
+    }
+    .offset-nine.col {
+        margin-left: 78.0%;
+    }
+    .offset-ten.col {
+        margin-left: 86.6666666667%;
+    }
+    .offset-eleven.col {
+        margin-left: 95.3333333333%;
+    }
+    .offset-one-third.col {
+        margin-left: 34.6666666667%;
+    }
+    .offset-two-thirds.col {
+        margin-left: 69.3333333333%;
+    }
+    .offset-one-half.col {
+        margin-left: 52%;
+    }
 }
 
+
+/* / Grid  
+----------------------------------------------*/

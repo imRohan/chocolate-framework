@@ -1,0 +1,9 @@
+@mixin fontSize($sizeValue) {
+  font-size: (4.6 - $sizeValue * 0.6) + rem;
+}
+@mixin swissFont{
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@mixin lineHeight($val){
+	line-height: (1.6 - 0.06666666667 * $val);
+}
