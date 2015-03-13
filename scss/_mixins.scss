@@ -10,7 +10,6 @@
 
 @mixin opacity ( $value: 0.5 ) {
   opacity: $value;
-  -ms-filter: “progid:DXImageTransform.Microsoft.Alpha(Opacity=” $value * 100 “)”;
   filter: alpha(opacity= $value * 100 );
   zoom: 1;
 }
