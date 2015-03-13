@@ -1,2 +1,2 @@
-# swissStrap
-A swiss styled, responsive front-end
+# Chocolate
+Chocolate is a swiss styled front-end framework.
