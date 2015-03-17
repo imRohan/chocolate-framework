@@ -19,7 +19,7 @@ input[type="button"] {
     text-decoration: none;
     white-space: nowrap;
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: $buttonRadius;
     border: 1px solid $secondaryColor;
     cursor: pointer;
     box-sizing: border-box;
@@ -61,8 +61,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
     color: $lightFont;
-    background-color:  $secondaryColorLight;
-    border-color:  $secondaryColor;
+    background-color: $secondaryColorLight;
+    border-color: $secondaryColor;
 }
 
 /* / Buttons

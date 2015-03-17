@@ -1,45 +1,67 @@
 /* Typography 
 ----------------------------------------------*/
-h1, h2, h3, h4, h5, h6{
-	margin-top: 0;
-	margin-bottom: 2rem;
-	font-weight:300;
-}
-h1{
-	@include fontSize (1);
-	@include lineHeight (6);
-}
-h2{
-	@include fontSize (2);
-	@include lineHeight (5);
-}
-h3{
-	@include fontSize (3);
-	@include lineHeight (4);
-}
-h4{
-	@include fontSize (4);
-	@include lineHeight (3);
-}
-h5{
-	@include fontSize (5);
-	@include lineHeight (2);
-}
-h6{
-	@include fontSize (6);
-	@include lineHeight (1);
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -.08rem;
 }
 
+h1 {
+    @include fontSize(1);
+    @include lineHeight(6);
+}
 
+h2 {
+    @include fontSize(2);
+    @include lineHeight(5);
+}
 
+h3 {
+    @include fontSize(3);
+    @include lineHeight(4);
+}
 
+h4 {
+    @include fontSize(4);
+    @include lineHeight(3);
+}
 
+h5 {
+    @include fontSize(5);
+    @include lineHeight(2);
+}
 
+h6 {
+    @include fontSize(6);
+    @include lineHeight(1);
+}
 
+@media (min-width: $medium-device) {
+    h1 {
+        @include fontSize(0);
+    }
+    h2 {
+        @include fontSize(1);
+    }
+    h3 {
+        @include fontSize(2);
+    }
+    h4 {
+        @include fontSize(3);
+    }
+    h5 {
+        @include fontSize(4);
+    }
+    h6 {
+        @include fontSize(5);
+    }
+}
 
-
-
-
+p {
+    margin-top: 0;
+}
 
 /* /Typography 
 ----------------------------------------------*/

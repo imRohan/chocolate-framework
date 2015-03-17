@@ -9,27 +9,26 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
-
 .col {
     width: 100%;
     float: left;
     box-sizing: border-box;
 }
-
 /* Larger than small devices */
+
 @media (min-width: $small-device) {
     .container {
         width: 85%;
         padding: 0;
     }
 }
-
 /* Larger than medium devices */
+
 @media (min-width: $medium-device) {
     .container {
         width: 80%;
     }
-    .col{
+    .col {
         margin-left: 4%;
     }
     .col:first-child {
@@ -71,6 +70,7 @@
     .twelve.col {
         width: 100%;
         margin-left: 0;
+        margin-bottom: 2%;
     }
     .oneThird.col {
         width: 30.6666666667%;
@@ -121,7 +121,5 @@
         margin-left: 52%;
     }
 }
-
-
 /* / Grid  
 ----------------------------------------------*/

@@ -4,7 +4,7 @@ html{
 	font-size: 62.5%;
 }
 body{
-	@include fontSize(6);
+	font-size: 1.5em; 
 	@include swissFont;
 	@include lineHeight(0);
 	font-weight: 400;

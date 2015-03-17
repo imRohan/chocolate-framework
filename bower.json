@@ -1,17 +1,17 @@
 {
-  "name": "furtive",
-  "version": "1.0.1",
-  "homepage": "https://github.com/johnotander/furtive",
+  "name": "Chocolate Framework",
+  "version": "0.1",
+  "homepage": "https://github.com/imRohan/chocolate-framework",
   "authors": [
-    "John Otander <johnotander@gmail.com>"
+    "Rohan <rlikhite@gmail.com>"
   ],
-  "description": "A forward-thinking, CSS micro-framework. Minimal by design.",
+  "description": "A swiss styled front-end responsive framework",
+  "main": "css/style.css",
   "keywords": [
-    "furtive",
-    "css",
-    "micro-framework",
-    "scss",
-    "minimal"
+    "responsove",
+    "swiss",
+    "frontend",
+    "chocolate"
   ],
   "license": "MIT",
   "ignore": [
@@ -20,5 +20,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
 }
