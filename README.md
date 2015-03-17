@@ -1,3 +1,5 @@
+![Chocolate Logo](http://i.imgur.com/sG2g0cr.png)
+
 # Chocolate
 Chocolate is a Swiss styled, responsive frontend framework that is lightweight and highly customizable.
 
@@ -19,6 +21,10 @@ The simplest and fastest way to get started is to include the style CSS file in 
 ## Contributing
 
 Contributions are more than welcome. I'd love to hear any feedback, suggestions, pull requests, issues, bugs, complaints, abuse or otherwise.
+
+## Credits
+
+Chocolate Bar Logo designed by Amos Kofi Commey
 
 ##MIT License
 
