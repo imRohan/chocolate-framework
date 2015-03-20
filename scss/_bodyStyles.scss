@@ -13,7 +13,7 @@ body{
 }
 hr{
 	border:none;
-	height:($lineWidth - 2px);
+	height:$lineWidth;
 	color:$primaryColor;
 	background-color:$primaryColor;
 }

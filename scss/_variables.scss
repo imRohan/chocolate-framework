@@ -2,7 +2,7 @@ $max-width: 1500px;
 $small-device: 320px;
 $medium-device: 600px;
 
-$bgColor: #191919;
+$bgColor: #000;
 $darkFont: #999;
 $lightFont: #F4F4EC;
 
@@ -16,8 +16,11 @@ $infoColor: #a25aff;
 $warningColor: #ff001b;
 $dangerColor: #ff855a;
 
-$buttonRadius: 60px;
-$buttonSize: 33px;
+$buttonRadius: 5px;
+$buttonSize: 30px;
 $buttonLineWidth: 1px;
+$buttonPadding: 0 20px;
+
+$animationSpeed: 1s;
 
 $lineWidth: 3px;

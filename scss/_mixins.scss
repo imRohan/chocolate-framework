@@ -20,7 +20,7 @@
 		    content: "";
         position: absolute;
         width: 1em;
-        margin-top: -3px;
+        margin-top: $lineWidth * -1;
         border-bottom: $lineWidth solid $primaryColor;
 }
 

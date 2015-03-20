@@ -1,27 +1,42 @@
 /* Buttons */
 
-.button, button, .altBtn, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
+.btn, button, .altBtn, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
     display: inline-block;
     height: $buttonSize;
-    width:auto;
-    padding: 0 30px;
+    width: auto;
+    padding: $buttonPadding;
     text-align: center;
     font-weight: 600;
     line-height: $buttonSize;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
+    letter-spacing: 1px;
     text-decoration: none;
     background-color: transparent;
     border-radius: $buttonRadius;
+    -moz-border-radius: 0px 0px $buttonRadius $buttonRadius;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-left-radius: $buttonRadius;
+    -webkit-border-bottom-right-radius: $buttonRadius;
     cursor: pointer;
     margin-bottom: 2%;
     box-sizing: border-box;
     outline: 0;
-    @include fontSize(11px);
-    @include transition(background-color 0.7s ease);
+    @include fontSize(14px);
+    @include transition(color $animationSpeed ease);
+    @include transition(background-color $animationSpeed ease);
 }
 
-.button, button {
+.btnBlock{
+    width:100%;
+}
+
+.btnLarge{
+    line-height: $buttonSize * 1.5;
+    height: $buttonSize * 1.5;
+    @include fontSize(16px);
+}
+
+.btn, button {
     color: $primaryColor;
     border: $buttonLineWidth solid $primaryColor;
 }
@@ -31,7 +46,7 @@
     border: $buttonLineWidth solid $secondaryColor;
 }
 
-.successBtn{
+.successBtn {
     color: $successColor;
     border: $buttonLineWidth solid $successColor;
 }
@@ -77,18 +92,17 @@
 
 .warningBtn:hover, .warningBtn:focus {
     color: $bgColor;
-    border-color:$warningColor;
+    border-color: $warningColor;
     background-color: $warningColor;
 }
 
 .dangerBtn:hover, .dangerBtn:focus {
     color: $bgColor;
-    border-color:$dangerColor;
+    border-color: $dangerColor;
     background-color: $dangerColor;
 }
 
-
-.successBtnAlt{
+.successBtnAlt {
     color: $bgColor;
     background-color: $successColor;
     border-color: $successColor;
@@ -106,7 +120,7 @@ input[type="button"].button-primary {
     border-color: $secondaryColorLight;
 }
 
-.successBtnAlt:hover, .successBtnAlt:focus{
+.successBtnAlt:hover, .successBtnAlt:focus {
     color: $successColor;
     background-color: $bgColor;
     border-color: $successColor;

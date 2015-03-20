@@ -4,8 +4,8 @@
 
 h1, h2, h3, h4, h5, h6, .big {
     display: block;
-    margin-top: 0%;
-    margin-bottom: 1.3rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
     font-weight: 700;
     letter-spacing: -.06rem;
 }
@@ -103,6 +103,12 @@ small {
     color: $darkFont;
     text-transform: uppercase;
     margin-left: 0px;
+}
+
+.topHeading{
+    display:block;
+    margin-top:-7px;
+    margin-bottom:-7px;
 }
 
 cite {
