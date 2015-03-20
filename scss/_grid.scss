@@ -38,37 +38,37 @@
         margin-left: 0;
     }
     .one.col {
-        width: 4.66666666667%;
+        @include colWidth(1);
     }
     .two.col {
-        width: 13.3333333333%;
+        @include colWidth(2);
     }
     .three.col {
-        width: 22%;
+        @include colWidth(3);
     }
     .four.col {
-        width: 30.6666666667%;
+        @include colWidth(4);
     }
     .five.col {
-        width: 39.3333333333%;
+        @include colWidth(5);
     }
     .six.col, .half.col {
-        width: 48%;
+        @include colWidth(6);
     }
     .seven.col {
-        width: 56.6666666667%;
+        @include colWidth(7);
     }
     .eight.col {
-        width: 65.3333333333%;
+        @include colWidth(8);
     }
     .nine.col {
-        width: 74.0%;
+        @include colWidth(9);
     }
     .ten.col {
-        width: 82.6666666667%;
+        @include colWidth(10);
     }
     .eleven.col {
-        width: 91.3333333333%;
+        @include colWidth(11);
     }
     .twelve.col {
         width: 100%;

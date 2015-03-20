@@ -9,7 +9,9 @@
 	line-height: (1.4 - 0.06666666667 * $val);
 }
 
-
+@mixin colWidth($val){
+  width: ((100/12)*$val) *0.90%;
+}
 @mixin opacity ( $value: 0.5 ) {
   opacity: $value;
   filter: alpha(opacity= $value * 100 );
