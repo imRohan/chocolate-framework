@@ -33,3 +33,17 @@
   -o-transition: $args;
   transition: $args;
 }
+
+@mixin word-wrap() {
+  word-break:     break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens:    auto;
+  hyphens:         auto;
+}
+
+@mixin bannerSize($val){
+  margin-left:-$val;
+  margin-right:-$val;
+  padding-left:$val;
+  padding-right:$val;
+}

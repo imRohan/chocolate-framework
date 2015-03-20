@@ -9,11 +9,15 @@
     text-transform: uppercase;
 }
 
-.header {
+.banner {
     margin-top: 5%;
-    padding-top: 1%;
+    @include bannerSize(2%);
     border-top: $lineWidth solid $primaryColor;
-    margin-bottom: 10%;
+    border-bottom: ($lineWidth * 0.33) solid $primaryColor;
+    height:120px;
+    overflow-y:hidden;
+    background-color: rgba(255,255,255,0.01);
+
 }
 
 .success{
