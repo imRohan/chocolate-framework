@@ -163,7 +163,7 @@ h3 {
 h3:before {
   content: "";
   position: absolute;
-  width: 4%;
+  width: 1em;
   margin-top: -3px;
   border-bottom: 3px solid #F4F4EC; }
 
@@ -213,7 +213,7 @@ blockquote {
   h3:before {
     content: "";
     position: absolute;
-    width: 4%;
+    width: 1em;
     margin-top: -3px;
     border-bottom: 3px solid #F4F4EC; }
 
@@ -248,8 +248,7 @@ small {
   font-size: 60%;
   color: #999;
   text-transform: uppercase;
-  margin-right: 0.3em;
-  margin-left: 0.3em; }
+  margin-left: 0px; }
 
 cite {
   color: #999;

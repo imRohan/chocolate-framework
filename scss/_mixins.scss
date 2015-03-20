@@ -19,7 +19,7 @@
 @mixin headerLine(){
 		    content: "";
         position: absolute;
-        width: 4%;
+        width: 1em;
         margin-top: -3px;
         border-bottom: $lineWidth solid $primaryColor;
 }
