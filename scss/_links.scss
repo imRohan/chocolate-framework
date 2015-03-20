@@ -1,12 +1,13 @@
-/* Links 
-----------------------------------------------*/
+/* Link */
 
 a{
 	color: $secondaryColor;
+	text-decoration: none;
 }
 a:hover{
-	color: $secondaryColorLight;
+	text-decoration:none;
+	color: $bgColor;
+	background:$lightFont;
 }
 
-/* /Links 
-----------------------------------------------*/
+/* Link */

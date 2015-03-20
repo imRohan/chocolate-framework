@@ -1,11 +1,36 @@
-/* Helper Classes
-----------------------------------------------*/
+/* Helper Classes */
 
-.letterHead {
-    margin-top: 20%;
-}
 .centerHor {
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
+.upperCase {
+    text-transform: uppercase;
+}
+
+.header {
+    margin-top: 5%;
+    padding-top: 1%;
+    border-top: $lineWidth solid $primaryColor;
+    margin-bottom: 10%;
+}
+
+.success{
+	color: $successColor;
+}
+
+.warning{
+	color: $warningColor;
+}
+
+.alert{
+	color: $secondaryColor;
+}
+
+.center{
+    text-align:center;
+    align-content: center;
+}
+
+/* Helper Classes */

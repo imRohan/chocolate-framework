@@ -1,67 +1,115 @@
-/* Typography 
-----------------------------------------------*/
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 2rem;
+/* Typography */
+
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+h1, h2, h3, h4, h5, h6, .big {
+    display: block;
+    margin-top: 0%;
+    margin-bottom: 1.3rem;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: -.08rem;
+    letter-spacing: -.06rem;
 }
 
 h1 {
-    @include fontSize(1);
-    @include lineHeight(6);
+    @include fontSize(32px);
+    @include lineHeight(1);
 }
 
 h2 {
-    @include fontSize(2);
-    @include lineHeight(5);
-}
-
-h3 {
-    @include fontSize(3);
-    @include lineHeight(4);
-}
-
-h4 {
-    @include fontSize(4);
-    @include lineHeight(3);
-}
-
-h5 {
-    @include fontSize(5);
+    @include fontSize(26px);
     @include lineHeight(2);
 }
 
+h3 {
+    @include fontSize(22px);
+    @include lineHeight(3);
+}
+
+h3:before {
+    @include headerLine;
+}
+
+h4 {
+    @include fontSize(18px);
+    @include lineHeight(4);
+}
+
+h5 {
+    @include fontSize(0.9px);
+    @include lineHeight(5);
+}
+
 h6 {
-    @include fontSize(6);
-    @include lineHeight(1);
+    @include fontSize(0.7px);
+    @include lineHeight(6);
+}
+
+blockquote {
+    @include fontSize(20px);
+    @include lineHeight(6);
+    font-family: 'Lora', serif;
+    margin-left: 5%;
+    padding-left: 15px;
+    border-left: $lineWidth solid $secondaryColor;
+    font-weight: 700;
+}
+
+.big {
+    @include fontSize(40px);
+    @include lineHeight(0);
 }
 
 @media (min-width: $medium-device) {
     h1 {
-        @include fontSize(0);
+        @include fontSize(48px);
     }
     h2 {
-        @include fontSize(1);
+        @include fontSize(36px);
     }
     h3 {
-        @include fontSize(2);
+        @include fontSize(28px);
+    }
+    h3:before {
+        @include headerLine;
     }
     h4 {
-        @include fontSize(3);
+        @include fontSize(18px);
     }
     h5 {
-        @include fontSize(4);
+        @include fontSize(16px);
     }
     h6 {
-        @include fontSize(5);
+        @include fontSize(14px);
+    }
+    blockquote {
+        @include fontSize(24px);
+    }
+    .big {
+        @include fontSize(58px);
     }
 }
 
 p {
     margin-top: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
-/* /Typography 
-----------------------------------------------*/
+small {
+    font-size: 60%;
+    color: $darkFont;
+    text-transform: uppercase;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+
+cite {
+    color:$darkFont;
+    font-size: 60%;
+    font-style: italic;
+}
+
+/* Typography */

@@ -1,15 +1,21 @@
-/* Body Styles
-----------------------------------------------*/
+/* Body Styles */
 html{
-	font-size: 62.5%;
+	width: 100%;
+    height: 100%;
 }
-body{
-	font-size: 1.5em; 
+body{ 
 	@include swissFont;
-	@include lineHeight(0);
+	font-size: 1.5em;
 	font-weight: 400;
-	color: $darkFont;
+	@include lineHeight(0);	
+	color: $lightFont;
+	background-color:$bgColor;
+}
+hr{
+	border:none;
+	height:($lineWidth - 2px);
+	color:$primaryColor;
+	background-color:$primaryColor;
 }
 
-/* /Body Styles
-----------------------------------------------*/
+/* Body Styles */

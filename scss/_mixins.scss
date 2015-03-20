@@ -1,15 +1,33 @@
-@mixin fontSize($sizeValue) {
-  font-size: (4.6 - $sizeValue * 0.6) + rem;
+@mixin fontSize($size) {
+  font-size: $size;
+  font-size:($size / 16px) * 0.65em;
 }
 @mixin swissFont{
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @mixin lineHeight($val){
-	line-height: (1.6 - 0.06666666667 * $val);
+	line-height: (1.4 - 0.06666666667 * $val);
 }
+
 
 @mixin opacity ( $value: 0.5 ) {
   opacity: $value;
   filter: alpha(opacity= $value * 100 );
   zoom: 1;
+}
+
+@mixin headerLine(){
+		    content: "";
+        position: absolute;
+        width: 4%;
+        margin-top: -3px;
+        border-bottom: $lineWidth solid $primaryColor;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
 }

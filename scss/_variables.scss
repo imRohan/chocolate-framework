@@ -1,13 +1,23 @@
-$max-width: 960px;
-$small-device: 400px;
-$medium-device: 550px;
+$max-width: 1500px;
+$small-device: 320px;
+$medium-device: 600px;
 
-$darkFont: #000;
-$lightFont: #fff;
+$bgColor: #191919;
+$darkFont: #999;
+$lightFont: #F4F4EC;
 
-$primaryColor: green;
+$primaryColor: #F4F4EC; //white
 $primaryColorLight: pink;
-$secondaryColor: red;
+$secondaryColor: #f4b603; //yellow
 $secondaryColorLight: blue;
 
-$buttonRadius: 0px;
+$successColor: #00e19d;
+$infoColor: #a25aff;
+$warningColor: #ff001b;
+$dangerColor: #ff855a;
+
+$buttonRadius: 60px;
+$buttonSize: 33px;
+$buttonLineWidth: 1px;
+
+$lineWidth: 3px;

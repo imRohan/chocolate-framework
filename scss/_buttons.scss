@@ -1,69 +1,115 @@
-/* Buttons
-----------------------------------------------*/
+/* Buttons */
 
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+.button, button, .altBtn, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
     display: inline-block;
-    height: 38px;
+    height: $buttonSize;
+    width:auto;
     padding: 0 30px;
-    color: $secondaryColor;
     text-align: center;
-    font-size: 11px;
     font-weight: 600;
-    line-height: 38px;
+    line-height: $buttonSize;
     letter-spacing: .1rem;
     text-transform: uppercase;
     text-decoration: none;
-    white-space: nowrap;
     background-color: transparent;
     border-radius: $buttonRadius;
-    border: 1px solid $secondaryColor;
     cursor: pointer;
+    margin-bottom: 2%;
     box-sizing: border-box;
-}
-
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-    color: $darkFont;
-    border-color: $primaryColorLight;
     outline: 0;
+    @include fontSize(11px);
+    @include transition(background-color 0.7s ease);
 }
 
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
+.button, button {
+    color: $primaryColor;
+    border: $buttonLineWidth solid $primaryColor;
+}
+
+.altBtn {
+    color: $secondaryColor;
+    border: $buttonLineWidth solid $secondaryColor;
+}
+
+.successBtn{
+    color: $successColor;
+    border: $buttonLineWidth solid $successColor;
+}
+
+.infoBtn {
+    color: $infoColor;
+    border: $buttonLineWidth solid $infoColor;
+}
+
+.warningBtn {
+    color: $warningColor;
+    border: $buttonLineWidth solid $warningColor;
+}
+
+.dangerBtn {
+    color: $dangerColor;
+    border: $buttonLineWidth solid $dangerColor;
+}
+
+.button:hover, button:hover, .button:focus, button:focus {
+    color: $bgColor;
+    border-color: $secondaryColor;
+    background-color: $secondaryColor;
+}
+
+.button-alt:hover, button-alt:hover {
+    color: $bgColor;
+    border-color: $primaryColor;
+    background-color: $primaryColor;
+}
+
+.successBtn:hover, .successBtn:focus {
+    color: $bgColor;
+    border-color: $successColor;
+    background-color: $successColor;
+}
+
+.infoBtn:hover, .infoBtn:focus {
+    color: $bgColor;
+    border-color: $infoColor;
+    background-color: $infoColor;
+}
+
+.warningBtn:hover, .warningBtn:focus {
+    color: $bgColor;
+    border-color:$warningColor;
+    background-color: $warningColor;
+}
+
+.dangerBtn:hover, .dangerBtn:focus {
+    color: $bgColor;
+    border-color:$dangerColor;
+    background-color: $dangerColor;
+}
+
+
+.successBtnAlt{
+    color: $bgColor;
+    background-color: $successColor;
+    border-color: $successColor;
+}
+
+input[type="warning"].button-primary {
+    color: $lightFont;
+    background-color: $secondaryColor;
+    border-color: $secondaryColorLight;
+}
+
 input[type="button"].button-primary {
     color: $lightFont;
     background-color: $secondaryColor;
     border-color: $secondaryColorLight;
 }
 
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-    color: $lightFont;
-    background-color: $secondaryColorLight;
-    border-color: $secondaryColor;
+.successBtnAlt:hover, .successBtnAlt:focus{
+    color: $successColor;
+    background-color: $bgColor;
+    border-color: $successColor;
 }
 
-/* / Buttons
-----------------------------------------------*/
+/* Buttons */
