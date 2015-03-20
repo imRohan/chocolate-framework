@@ -22,7 +22,7 @@ Chocolate is a Swiss styled, responsive frontend framework that is lightweight a
 
 The simplest and fastest way to get started is to include the style CSS file in your project. Just add this snippet to the head of your html file:
 
-    https://raw.githubusercontent.com/imRohan/chocolate-framework/master/css/style.css
+    https://raw.githubusercontent.com/imRohan/chocolate-framework/master/css/chocolate.css
 
 
 ## Contributing
