@@ -168,18 +168,18 @@ h3:before {
   border-bottom: 3px solid #F4F4EC; }
 
 h4 {
-  font-size: 18px;
-  font-size: 0.73125em;
+  font-size: 22px;
+  font-size: 0.89375em;
   line-height: 1.13333; }
 
 h5 {
-  font-size: 0.9px;
-  font-size: 0.03656em;
+  font-size: 18px;
+  font-size: 0.73125em;
   line-height: 1.06667; }
 
 h6 {
-  font-size: 0.7px;
-  font-size: 0.02844em;
+  font-size: 10px;
+  font-size: 0.40625em;
   line-height: 1.0; }
 
 blockquote {
@@ -218,16 +218,16 @@ blockquote {
     border-bottom: 3px solid #F4F4EC; }
 
   h4 {
+    font-size: 28px;
+    font-size: 1.1375em; }
+
+  h5 {
     font-size: 18px;
     font-size: 0.73125em; }
 
-  h5 {
+  h6 {
     font-size: 16px;
     font-size: 0.65em; }
-
-  h6 {
-    font-size: 14px;
-    font-size: 0.56875em; }
 
   blockquote {
     font-size: 24px;
@@ -392,4 +392,4 @@ input[type="button"].button-primary {
 
 /* Buttons */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=chocolate.css.map */

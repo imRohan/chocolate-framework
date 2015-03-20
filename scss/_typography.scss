@@ -30,17 +30,17 @@ h3:before {
 }
 
 h4 {
-    @include fontSize(18px);
+    @include fontSize(22px);
     @include lineHeight(4);
 }
 
 h5 {
-    @include fontSize(0.9px);
+    @include fontSize(18px);
     @include lineHeight(5);
 }
 
 h6 {
-    @include fontSize(0.7px);
+    @include fontSize(10px);
     @include lineHeight(6);
 }
 
@@ -73,13 +73,13 @@ blockquote {
         @include headerLine;
     }
     h4 {
-        @include fontSize(18px);
+        @include fontSize(28px);
     }
     h5 {
-        @include fontSize(16px);
+        @include fontSize(18px);
     }
     h6 {
-        @include fontSize(14px);
+        @include fontSize(16px);
     }
     blockquote {
         @include fontSize(24px);
