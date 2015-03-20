@@ -9,6 +9,13 @@ Chocolate is a Swiss styled, responsive frontend framework that is lightweight a
 - Swiss elements
 - Responsive nav
 - Helper classes
+- Breakpoints
+- Tables
+- Alerts
+- Wells
+- Input Fields
+- Selection
+- Pagination
 
  
 ## Getting started
