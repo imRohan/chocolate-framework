@@ -10,7 +10,7 @@
 }
 
 .banner {
-    margin-top: 5%;
+    margin-top: 3%;
     @include bannerSize(2%);
     border-top: $lineWidth solid $primaryColor;
     border-bottom: ($lineWidth * 0.33) solid $primaryColor;
