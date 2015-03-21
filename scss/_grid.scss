@@ -8,10 +8,27 @@
     box-sizing: border-box;
     
 }
+
+.colCheck{
+    height:17px;
+    width:100%;
+    background-color: #363636;
+    border: 1px solid #252525;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color:$primaryColor;
+}
 @media (min-width: $small-device) {
     .container {
         width: 90%;
         padding: 0;
+    }
+    .col{
+        margin-bottom: 1%;
     }
 }
 .row{
@@ -33,13 +50,17 @@
         width: 90%;
     }
     .col {
-        margin-left: 5%;
+        margin-left: 1.6%;
+        margin-bottom:0;
     }
     .col:first-child {
         margin-left: 0;
+        float:left;
     }
     .one.col {
         @include colWidth(1);
+        margin-left:3px;
+        float:null;
     }
     .two.col {
         @include colWidth(2);

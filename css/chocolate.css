@@ -66,10 +66,26 @@ hr {
   padding: 0 20px;
   box-sizing: border-box; }
 
+.colCheck {
+  height: 17px;
+  width: 100%;
+  background-color: #363636;
+  border: 1px solid #252525;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  color: #F4F4EC; }
+
 @media (min-width: 320px) {
   .container {
     width: 90%;
-    padding: 0; } }
+    padding: 0; }
+
+  .col {
+    margin-bottom: 1%; } }
 .row {
   display: block;
   width: 100%;
@@ -88,53 +104,57 @@ hr {
     width: 90%; }
 
   .col {
-    margin-left: 5%; }
+    margin-left: 1.6%;
+    margin-bottom: 0; }
 
   .col:first-child {
-    margin-left: 0; }
+    margin-left: 0;
+    float: left; }
 
   .one.col {
-    width: 7.5%; }
+    width: 7.91667%;
+    margin-left: 3px;
+    float: null; }
 
   .two.col {
-    width: 15.0%; }
+    width: 15.83333%; }
 
   .three.col {
-    width: 22.5%; }
+    width: 23.75%; }
 
   .four.col {
-    width: 30.0%; }
+    width: 31.66667%; }
 
   .five.col {
-    width: 37.5%; }
+    width: 39.58333%; }
 
   .six.col, .half.col {
-    width: 45%; }
+    width: 47.5%; }
 
   .seven.col {
-    width: 52.5%; }
+    width: 55.41667%; }
 
   .eight.col {
-    width: 60.0%; }
+    width: 63.33333%; }
 
   .nine.col {
-    width: 67.5%; }
+    width: 71.25%; }
 
   .ten.col {
-    width: 75.0%; }
+    width: 79.16667%; }
 
   .eleven.col {
-    width: 82.5%; }
+    width: 87.08333%; }
 
   .twelve.col {
     width: 100%;
     margin-left: 0; }
 
   .oneThird.col {
-    width: 30.0%; }
+    width: 31.66667%; }
 
   .twoThirds.col {
-    width: 60.0%; }
+    width: 63.33333%; }
 
   .offsetOneThird.col {
     margin-left: 30.0%; }
