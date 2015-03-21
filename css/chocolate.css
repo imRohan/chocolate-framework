@@ -169,7 +169,7 @@ hr {
 h1, h2, h3, h4, h5, h6, .big {
   display: block;
   margin-top: 0.7rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: 700;
   letter-spacing: -.06rem; }
 
@@ -178,26 +178,26 @@ h1 {
   font-size: 1.3em;
   line-height: 1.33333; }
 
-h2 {
-  font-size: 26px;
-  font-size: 1.05625em;
-  line-height: 1.26667; }
-
-h3 {
-  font-size: 22px;
-  font-size: 0.89375em;
-  line-height: 1.2; }
-
-h3:before {
+h1:before {
   content: "";
   position: absolute;
   width: 1em;
   margin-top: -3px;
   border-bottom: 3px solid #F4F4EC; }
 
-h4 {
+h2 {
+  font-size: 32px;
+  font-size: 1.3em;
+  line-height: 1.33333; }
+
+h3 {
   font-size: 22px;
   font-size: 0.89375em;
+  line-height: 1.2; }
+
+h4 {
+  font-size: 20px;
+  font-size: 0.8125em;
   line-height: 1.13333; }
 
 h5 {
@@ -230,24 +230,24 @@ blockquote {
     font-size: 48px;
     font-size: 1.95em; }
 
-  h2 {
-    font-size: 36px;
-    font-size: 1.4625em; }
-
-  h3 {
-    font-size: 28px;
-    font-size: 1.1375em; }
-
-  h3:before {
+  h1:before {
     content: "";
     position: absolute;
     width: 1em;
     margin-top: -3px;
     border-bottom: 3px solid #F4F4EC; }
 
-  h4 {
+  h2 {
+    font-size: 48px;
+    font-size: 1.95em; }
+
+  h3 {
     font-size: 28px;
     font-size: 1.1375em; }
+
+  h4 {
+    font-size: 25px;
+    font-size: 1.01563em; }
 
   h5 {
     font-size: 18px;
