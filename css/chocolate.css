@@ -112,61 +112,48 @@ hr {
     padding-top: 20px; }
 
   .one.col {
-    margin-left: 0.4;
-    width: 8.33333%; }
+    width: 8.25%; }
 
   .two.col {
-    margin-left: 0.8;
-    width: 16.66667%; }
+    width: 16.5%; }
 
   .three.col {
-    margin-left: 1.2;
-    width: 25.0%; }
+    width: 24.75%; }
 
   .four.col {
-    margin-left: 1.6;
-    width: 33.33333%; }
+    width: 33.0%; }
 
   .five.col {
-    margin-left: 2;
-    width: 41.66666%; }
+    width: 41.25%; }
 
   .six.col,
   .half.col {
-    margin-left: 2.4;
-    width: 50.0%; }
+    width: 49.5%; }
 
   .seven.col {
-    margin-left: 2.8;
-    width: 58.33333%; }
+    width: 57.74999%; }
 
   .eight.col {
-    margin-left: 3.2;
-    width: 66.66666%; }
+    width: 65.99999%; }
 
   .nine.col {
-    margin-left: 3.6;
-    width: 74.99999%; }
+    width: 74.24999%; }
 
   .ten.col {
-    margin-left: 4;
-    width: 83.33333%; }
+    width: 82.49999%; }
 
   .eleven.col {
-    margin-left: 4.4;
-    width: 91.66666%; }
+    width: 90.74999%; }
 
   .twelve.col {
     width: 100%;
     margin-left: 0; }
 
   .oneThird.col {
-    margin-left: 1.6;
-    width: 33.33333%; }
+    width: 33.0%; }
 
   .twoThirds.col {
-    margin-left: 3.2;
-    width: 66.66666%; }
+    width: 65.99999%; }
 
   .offsetQuarter.col {
     margin-left: 25%; }

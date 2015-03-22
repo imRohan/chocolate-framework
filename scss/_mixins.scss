@@ -10,9 +10,8 @@
 	line-height: (1.4 - 0.06666666667 * $val);
 }
 
-@mixin colWidth($val){
-  margin-left: $val * 0.4;
-  width: ((100/12)*$val) *0.9999999%;
+@mixin colWidth($val){  
+  width: ((100/12)*$val) *0.9899999%;
 }
 @mixin opacity ( $value: 0.5 ) {
   opacity: $value;
