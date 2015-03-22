@@ -101,8 +101,7 @@ hr {
 
 @media (min-width: 600px) {
   .container {
-    width: 90%;
-    overflow-x: hidden; }
+    width: 90%; }
 
   .col {
     margin-bottom: 0; }
@@ -112,48 +111,48 @@ hr {
     padding-top: 20px; }
 
   .one.col {
-    width: 8.25%; }
+    width: 8.33333%; }
 
   .two.col {
-    width: 16.5%; }
+    width: 16.66667%; }
 
   .three.col {
-    width: 24.75%; }
+    width: 25%; }
 
   .four.col {
-    width: 33.0%; }
+    width: 33.33333%; }
 
   .five.col {
-    width: 41.25%; }
+    width: 41.66667%; }
 
   .six.col,
   .half.col {
-    width: 49.5%; }
+    width: 50%; }
 
   .seven.col {
-    width: 57.74999%; }
+    width: 58.33333%; }
 
   .eight.col {
-    width: 65.99999%; }
+    width: 66.66667%; }
 
   .nine.col {
-    width: 74.24999%; }
+    width: 75%; }
 
   .ten.col {
-    width: 82.49999%; }
+    width: 83.33333%; }
 
   .eleven.col {
-    width: 90.74999%; }
+    width: 91.66667%; }
 
   .twelve.col {
     width: 100%;
     margin-left: 0; }
 
   .oneThird.col {
-    width: 33.0%; }
+    width: 33.33333%; }
 
   .twoThirds.col {
-    width: 65.99999%; }
+    width: 66.66667%; }
 
   .offsetQuarter.col {
     margin-left: 25%; }

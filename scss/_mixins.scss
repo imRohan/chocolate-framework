@@ -11,7 +11,7 @@
 }
 
 @mixin colWidth($val){  
-  width: ((100/12)*$val) *0.9899999%;
+  width: ((100/12)*$val) *1%;
 }
 @mixin opacity ( $value: 0.5 ) {
   opacity: $value;
