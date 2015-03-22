@@ -11,7 +11,7 @@
 
 .banner {
     margin-top: 3%;
-    @include bannerSize(2%);
+    @include bannerSize(1%);
     border-top: $lineWidth solid $primaryColor;
     border-bottom: ($lineWidth * 0.33) solid $primaryColor;
     height:120px;

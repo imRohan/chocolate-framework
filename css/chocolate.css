@@ -34,10 +34,10 @@ hr {
 
 .banner {
   margin-top: 3%;
-  margin-left: -2%;
-  margin-right: -2%;
-  padding-left: 2%;
-  padding-right: 2%;
+  margin-left: -1%;
+  margin-right: -1%;
+  padding-left: 1%;
+  padding-right: 1%;
   border-top: 3px solid #F4F4EC;
   border-bottom: 0.99px solid #F4F4EC;
   height: 120px;
@@ -48,7 +48,7 @@ hr {
   color: #00e19d; }
 
 .warning {
-  color: #ff001b; }
+  color: #ff855a; }
 
 .alert {
   color: #f4b603; }
@@ -70,7 +70,7 @@ hr {
   height: 17px;
   width: 100%;
   background-color: #363636;
-  border: 1px solid #252525;
+  border: 2px solid #252525;
   border-radius: 7px;
   -moz-border-radius: 7px;
   font-size: 10px;
@@ -280,7 +280,7 @@ small {
 
 .topHeading {
   display: block;
-  margin-top: -7px;
+  margin-top: -20px;
   margin-bottom: -7px; }
 
 cite {
@@ -361,12 +361,12 @@ a:hover {
   border: 1px solid #a25aff; }
 
 .warningBtn {
-  color: #ff001b;
-  border: 1px solid #ff001b; }
-
-.dangerBtn {
   color: #ff855a;
   border: 1px solid #ff855a; }
+
+.dangerBtn {
+  color: #ff001b;
+  border: 1px solid #ff001b; }
 
 .button:hover, button:hover, .button:focus, button:focus {
   color: #000;
@@ -390,13 +390,13 @@ a:hover {
 
 .warningBtn:hover, .warningBtn:focus {
   color: #000;
-  border-color: #ff001b;
-  background-color: #ff001b; }
+  border-color: #ff855a;
+  background-color: #ff855a; }
 
 .dangerBtn:hover, .dangerBtn:focus {
   color: #000;
-  border-color: #ff855a;
-  background-color: #ff855a; }
+  border-color: #ff001b;
+  background-color: #ff001b; }
 
 .successBtnAlt {
   color: #000;
