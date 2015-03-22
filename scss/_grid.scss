@@ -48,19 +48,13 @@
 @media (min-width: $medium-device) {
     .container {
         width: 90%;
+        overflow-x: hidden;
     }
     .col {
-        margin-left: 1.6%;
         margin-bottom:0;
-    }
-    .col:first-child {
-        margin-left: 0;
-        float:left;
     }
     .one.col {
         @include colWidth(1);
-        margin-left:3px;
-        float:null;
     }
     .two.col {
         @include colWidth(2);
@@ -103,6 +97,9 @@
     .twoThirds.col {
         @include colWidth(8);
     }
+    .offsetQuarter.col{
+        margin-left:25%;
+    }
     .offsetOneThird.col {
         margin-left: 30.0%;
     }
@@ -111,6 +108,10 @@
     }
     .offsetHalf.col {
         margin-left: 45%;
+    }
+    .col:first-child {
+        margin-left: 0;
+        float:left;
     }
 }
 

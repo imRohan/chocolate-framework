@@ -101,60 +101,70 @@ hr {
 
 @media (min-width: 600px) {
   .container {
-    width: 90%; }
+    width: 90%;
+    overflow-x: hidden; }
 
   .col {
-    margin-left: 1.6%;
     margin-bottom: 0; }
 
-  .col:first-child {
-    margin-left: 0;
-    float: left; }
-
   .one.col {
-    width: 7.91667%;
-    margin-left: 3px;
-    float: null; }
+    margin-left: 0.4;
+    width: 8.33333%; }
 
   .two.col {
-    width: 15.83333%; }
+    margin-left: 0.8;
+    width: 16.66667%; }
 
   .three.col {
-    width: 23.75%; }
+    margin-left: 1.2;
+    width: 25.0%; }
 
   .four.col {
-    width: 31.66667%; }
+    margin-left: 1.6;
+    width: 33.33333%; }
 
   .five.col {
-    width: 39.58333%; }
+    margin-left: 2;
+    width: 41.66666%; }
 
   .six.col, .half.col {
-    width: 47.5%; }
+    margin-left: 2.4;
+    width: 50.0%; }
 
   .seven.col {
-    width: 55.41667%; }
+    margin-left: 2.8;
+    width: 58.33333%; }
 
   .eight.col {
-    width: 63.33333%; }
+    margin-left: 3.2;
+    width: 66.66666%; }
 
   .nine.col {
-    width: 71.25%; }
+    margin-left: 3.6;
+    width: 74.99999%; }
 
   .ten.col {
-    width: 79.16667%; }
+    margin-left: 4;
+    width: 83.33333%; }
 
   .eleven.col {
-    width: 87.08333%; }
+    margin-left: 4.4;
+    width: 91.66666%; }
 
   .twelve.col {
     width: 100%;
     margin-left: 0; }
 
   .oneThird.col {
-    width: 31.66667%; }
+    margin-left: 1.6;
+    width: 33.33333%; }
 
   .twoThirds.col {
-    width: 63.33333%; }
+    margin-left: 3.2;
+    width: 66.66666%; }
+
+  .offsetQuarter.col {
+    margin-left: 25%; }
 
   .offsetOneThird.col {
     margin-left: 30.0%; }
@@ -163,7 +173,11 @@ hr {
     margin-left: 60.0%; }
 
   .offsetHalf.col {
-    margin-left: 45%; } }
+    margin-left: 45%; }
+
+  .col:first-child {
+    margin-left: 0;
+    float: left; } }
 /* Grid */
 /* Typography */
 h1, h2, h3, h4, h5, h6, .big {
