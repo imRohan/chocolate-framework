@@ -30,12 +30,6 @@
     width:100%;
 }
 
-.btnLarge{
-    line-height: $buttonSize * 1.5;
-    height: $buttonSize * 1.5;
-    @include fontSize(16px);
-}
-
 .btn, button {
     color: $primaryColor;
     border: $buttonLineWidth solid $primaryColor;
@@ -68,14 +62,14 @@
 
 .button:hover, button:hover, .button:focus, button:focus {
     color: $bgColor;
-    border-color: $secondaryColor;
-    background-color: $secondaryColor;
-}
-
-.button-alt:hover, button-alt:hover {
-    color: $bgColor;
     border-color: $primaryColor;
     background-color: $primaryColor;
+}
+
+.altBtn:hover {
+    color: $bgColor;
+    border-color: $secondaryColor;
+    background-color: $secondaryColor;
 }
 
 .successBtn:hover, .successBtn:focus {
@@ -107,17 +101,22 @@
     background-color: $successColor;
     border-color: $successColor;
 }
-
-input[type="warning"].button-primary {
-    color: $lightFont;
-    background-color: $secondaryColor;
-    border-color: $secondaryColorLight;
+.infoBtnAlt {
+    color: $bgColor;
+    background-color: $infoColor;
+    border-color: $infoColor;
 }
 
-input[type="button"].button-primary {
-    color: $lightFont;
-    background-color: $secondaryColor;
-    border-color: $secondaryColorLight;
+.warningBtnAlt {
+    color: $bgColor;
+    background-color: $warningColor;
+    border-color: $warningColor;
+}
+
+.dangerBtnAlt {
+    color: $bgColor;
+    background-color: $dangerColor;
+    border-color: $dangerColor;
 }
 
 .successBtnAlt:hover, .successBtnAlt:focus {
@@ -126,4 +125,32 @@ input[type="button"].button-primary {
     border-color: $successColor;
 }
 
+.infoBtnAlt:hover, .infoBtnAlt:focus {
+    color: $infoColor;
+    border-color: $infoColor;
+    background-color: $bgColor;
+}
+
+.warningBtnAlt:hover, .warningBtnAlt:focus {
+    color: $warningColor;
+    border-color: $warningColor;
+    background-color: $bgColor;
+}
+
+.dangerBtnAlt:hover, .dangerBtnAlt:focus {
+    color: $dangerColor;
+    border-color: $dangerColor;
+    background-color: $bgColor;
+}
+
+.btnLarge{
+    line-height: $buttonSize * 1.5;
+    height: $buttonSize * 1.5;
+    @include fontSize(16px);
+}
+.btnSmall{
+    line-height: $buttonSize * 0.90;
+    height: $buttonSize * 0.90;
+    @include fontSize(14px);
+}
 /* Buttons */
