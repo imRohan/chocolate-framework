@@ -107,6 +107,10 @@ hr {
   .col {
     margin-bottom: 0; }
 
+  .alt {
+    border-top: 3px solid white;
+    padding-top: 20px; }
+
   .one.col {
     margin-left: 0.4;
     width: 8.33333%; }
@@ -127,7 +131,8 @@ hr {
     margin-left: 2;
     width: 41.66666%; }
 
-  .six.col, .half.col {
+  .six.col,
+  .half.col {
     margin-left: 2.4;
     width: 50.0%; }
 
@@ -284,7 +289,8 @@ p {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px; }
+  line-height: 20px;
+  padding-right: 3%; }
 
 small {
   font-size: 60%;
