@@ -1,9 +1,8 @@
 @mixin fontSize($size) {
-  font-size: $size;
   font-size:($size / 16px) * 0.65em;
 }
 @mixin swissFont{
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "HelveticaNeue", "Helvetica Neue", "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 @mixin lineHeight($val){

@@ -3,12 +3,13 @@
 */
 /* Body Styles */
 @import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 html {
   width: 100%;
   height: 100%; }
 
 body {
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.4;
@@ -171,7 +172,13 @@ hr {
     float: left; } }
 /* Grid */
 /* Typography */
-h1, h2, h3, h4, h5, h6, .big {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.big {
   display: block;
   margin-top: 0.7rem;
   margin-bottom: 0.5rem;
@@ -179,7 +186,6 @@ h1, h2, h3, h4, h5, h6, .big {
   letter-spacing: -.06rem; }
 
 h1 {
-  font-size: 32px;
   font-size: 1.3em;
   line-height: 1.33333; }
 
@@ -191,32 +197,35 @@ h1:before {
   border-bottom: 3px solid #F4F4EC; }
 
 h2 {
-  font-size: 32px;
   font-size: 1.3em;
   line-height: 1.33333; }
 
 h3 {
-  font-size: 22px;
   font-size: 0.89375em;
   line-height: 1.2; }
 
 h4 {
-  font-size: 20px;
   font-size: 0.8125em;
   line-height: 1.13333; }
 
 h5 {
-  font-size: 18px;
   font-size: 0.73125em;
   line-height: 1.06667; }
 
 h6 {
-  font-size: 10px;
   font-size: 0.40625em;
   line-height: 1.0; }
 
+.big {
+  font-size: 1.625em;
+  line-height: 1.4; }
+
+.topHeading {
+  display: block;
+  margin-top: -5%;
+  margin-bottom: -1%; }
+
 blockquote {
-  font-size: 20px;
   font-size: 0.8125em;
   line-height: 1.0;
   font-family: 'Lora', serif;
@@ -225,14 +234,8 @@ blockquote {
   border-left: 3px solid #f4b603;
   font-weight: 700; }
 
-.big {
-  font-size: 40px;
-  font-size: 1.625em;
-  line-height: 1.4; }
-
 @media (min-width: 600px) {
   h1 {
-    font-size: 48px;
     font-size: 1.95em; }
 
   h1:before {
@@ -243,39 +246,31 @@ blockquote {
     border-bottom: 3px solid #F4F4EC; }
 
   h2 {
-    font-size: 48px;
     font-size: 1.95em; }
 
   h3 {
-    font-size: 28px;
     font-size: 1.1375em; }
 
   h4 {
-    font-size: 25px;
     font-size: 1.01563em; }
 
   h5 {
-    font-size: 18px;
     font-size: 0.73125em; }
 
   h6 {
-    font-size: 16px;
     font-size: 0.65em; }
 
   blockquote {
-    font-size: 24px;
     font-size: 0.975em; }
 
   .big {
-    font-size: 58px;
     font-size: 2.35625em; } }
 p {
   margin-top: 0;
-  font-size: 14px;
+  font-size: 0.56875em;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
   padding-right: 3%; }
 
 small {
@@ -284,15 +279,30 @@ small {
   text-transform: uppercase;
   margin-left: 0px; }
 
-.topHeading {
-  display: block;
-  margin-top: -5%;
-  margin-bottom: -1%; }
-
 cite {
   color: #888;
   font-size: 60%;
   font-style: italic; }
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #252525;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-weight: 700;
+  padding: 0 5px; }
+
+pre {
+  background-color: #252525;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 0 10px;
+  font-size: 0.65em;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word; }
 
 /* Typography */
 /* Link */
@@ -328,7 +338,6 @@ a:hover {
   margin-bottom: 2%;
   box-sizing: border-box;
   outline: 0;
-  font-size: 14px;
   font-size: 0.56875em;
   -webkit-transition: color 1s ease;
   -moz-transition: color 1s ease;
@@ -451,13 +460,11 @@ a:hover {
 .btnLarge {
   line-height: 45px;
   height: 45px;
-  font-size: 16px;
   font-size: 0.65em; }
 
 .btnSmall {
   line-height: 27px;
   height: 27px;
-  font-size: 14px;
   font-size: 0.56875em; }
 
 /* Buttons */

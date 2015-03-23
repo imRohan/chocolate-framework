@@ -2,7 +2,15 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lora);
 
-h1, h2, h3, h4, h5, h6, .big {
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.big {
     display: block;
     margin-top: 0.7rem;
     margin-bottom: 0.5rem;
@@ -44,6 +52,17 @@ h6 {
     @include lineHeight(6);
 }
 
+.big {
+    @include fontSize(40px);
+    @include lineHeight(0);
+}
+
+.topHeading {
+    display: block;
+    margin-top: -5%;
+    margin-bottom: -1%;
+}
+
 blockquote {
     @include fontSize(20px);
     @include lineHeight(6);
@@ -54,17 +73,12 @@ blockquote {
     font-weight: 700;
 }
 
-.big {
-    @include fontSize(40px);
-    @include lineHeight(0);
-}
-
 @media (min-width: $medium-device) {
     h1 {
         @include fontSize(48px);
     }
     h1:before {
-    @include headerLine;
+        @include headerLine;
     }
     h2 {
         @include fontSize(48px);
@@ -91,15 +105,12 @@ blockquote {
 
 p {
     margin-top: 0;
-    font-size: 14px;
+    @include fontSize(14px);
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
-    line-height: 20px;
-    padding-right:3%
+    padding-right: 3%;
 }
-
-
 
 small {
     font-size: 60%;
@@ -108,18 +119,32 @@ small {
     margin-left: 0px;
 }
 
-.topHeading {
-    display: block;
-    margin-top: -5%;
-    margin-bottom: -1%;
-}
-
 cite {
     color: $darkFont;
     font-size: 60%;
     font-style: italic;
 }
 
+code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: $codeBackground;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: 700;
+    padding: 0 5px;
+}
 
+pre {
+    background-color: $codeBackground;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 0 10px;
+    @include fontSize(16px);
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
 
 /* Typography */
