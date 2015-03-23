@@ -11,9 +11,8 @@
 .colCheck {
     height: 17px;
     width: 100%;
-    background-color: #363636;
-    border: 2px solid #252525;
-    border-radius: 7px;
+    background-color: #252525;
+    border-radius: $buttonRadius;
     -moz-border-radius: 7px;
     font-size: 10px;
     font-weight: 700;
@@ -21,17 +20,6 @@
     text-align: center;
     color: $primaryColor;
 }
-
-@media (min-width: $small-device) {
-    .container {
-        width: 90%;
-        padding: 0;
-    }
-    .col {
-        margin-bottom: 1%;
-    }
-}
-
 .row {
     display: block;
     width: 100%;
@@ -44,9 +32,18 @@
     display: block;
     width: 100%;
     float: left;
+    padding: 0px 5px;
     box-sizing: border-box;
 }
-
+@media (min-width: $small-device) {
+    .container {
+        width: 90%;
+        padding: 0;
+    }
+    .col {
+        margin-bottom: 1%;
+    }
+}
 @media (min-width: $medium-device) {
     .container {
         width: 90%;

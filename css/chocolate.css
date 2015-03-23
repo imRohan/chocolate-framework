@@ -69,9 +69,8 @@ hr {
 .colCheck {
   height: 17px;
   width: 100%;
-  background-color: #363636;
-  border: 2px solid #252525;
-  border-radius: 7px;
+  background-color: #252525;
+  border-radius: 0px;
   -moz-border-radius: 7px;
   font-size: 10px;
   font-weight: 700;
@@ -79,13 +78,6 @@ hr {
   text-align: center;
   color: #F4F4EC; }
 
-@media (min-width: 320px) {
-  .container {
-    width: 90%;
-    padding: 0; }
-
-  .col {
-    margin-bottom: 1%; } }
 .row {
   display: block;
   width: 100%;
@@ -97,8 +89,16 @@ hr {
   display: block;
   width: 100%;
   float: left;
+  padding: 0px 5px;
   box-sizing: border-box; }
 
+@media (min-width: 320px) {
+  .container {
+    width: 90%;
+    padding: 0; }
+
+  .col {
+    margin-bottom: 1%; } }
 @media (min-width: 600px) {
   .container {
     width: 90%; }
@@ -280,7 +280,7 @@ p {
 
 small {
   font-size: 60%;
-  color: #999;
+  color: #888;
   text-transform: uppercase;
   margin-left: 0px; }
 
@@ -290,7 +290,7 @@ small {
   margin-bottom: -1%; }
 
 cite {
-  color: #999;
+  color: #888;
   font-size: 60%;
   font-style: italic; }
 
