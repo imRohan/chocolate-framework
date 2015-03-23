@@ -1,6 +1,6 @@
 /* Buttons */
 
-.btn, button, .altBtn, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
+.btn, button, .secondaryBtn, .secondaryBtnAlt, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
     display: inline-block;
     height: $buttonSize;
     width: auto;
@@ -35,7 +35,7 @@
     border: $buttonLineWidth solid $primaryColor;
 }
 
-.altBtn {
+.secondaryBtn {
     color: $secondaryColor;
     border: $buttonLineWidth solid $secondaryColor;
 }
@@ -66,7 +66,7 @@
     background-color: $primaryColor;
 }
 
-.altBtn:hover {
+.secondaryBtn:hover {
     color: $bgColor;
     border-color: $secondaryColor;
     background-color: $secondaryColor;
@@ -96,6 +96,12 @@
     background-color: $dangerColor;
 }
 
+.secondaryBtnAlt {
+    color: $bgColor;
+    background-color: $secondaryColor;
+    border: $buttonLineWidth solid $secondaryColor;
+}
+
 .successBtnAlt {
     color: $bgColor;
     background-color: $successColor;
@@ -119,6 +125,11 @@
     border-color: $dangerColor;
 }
 
+.secondaryBtnAlt:hover, .secondaryBtnAlt:focus {
+    color: $secondaryColor;
+    background-color: $bgColor;
+    border: $buttonLineWidth solid $secondaryColor;
+}
 .successBtnAlt:hover, .successBtnAlt:focus {
     color: $successColor;
     background-color: $bgColor;

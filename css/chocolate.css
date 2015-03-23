@@ -307,7 +307,7 @@ a:hover {
 
 /* Link */
 /* Buttons */
-.btn, button, .altBtn, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
+.btn, button, .secondaryBtn, .secondaryBtnAlt, .successBtn, .infoBtn, .warningBtn, .dangerBtn {
   display: inline-block;
   height: 30px;
   width: auto;
@@ -318,12 +318,12 @@ a:hover {
   letter-spacing: 1px;
   text-decoration: none;
   background-color: transparent;
-  border-radius: 5px;
-  -moz-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
   -webkit-border-top-left-radius: 0px;
   -webkit-border-top-right-radius: 0px;
-  -webkit-border-bottom-left-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
   cursor: pointer;
   margin-bottom: 2%;
   box-sizing: border-box;
@@ -348,7 +348,7 @@ a:hover {
   color: #F4F4EC;
   border: 1px solid #F4F4EC; }
 
-.altBtn {
+.secondaryBtn {
   color: #f4b603;
   border: 1px solid #f4b603; }
 
@@ -373,7 +373,7 @@ a:hover {
   border-color: #F4F4EC;
   background-color: #F4F4EC; }
 
-.altBtn:hover {
+.secondaryBtn:hover {
   color: #000;
   border-color: #f4b603;
   background-color: #f4b603; }
@@ -398,6 +398,11 @@ a:hover {
   border-color: #ff001b;
   background-color: #ff001b; }
 
+.secondaryBtnAlt {
+  color: #000;
+  background-color: #f4b603;
+  border: 1px solid #f4b603; }
+
 .successBtnAlt {
   color: #000;
   background-color: #00e19d;
@@ -417,6 +422,11 @@ a:hover {
   color: #000;
   background-color: #ff001b;
   border-color: #ff001b; }
+
+.secondaryBtnAlt:hover, .secondaryBtnAlt:focus {
+  color: #f4b603;
+  background-color: #000;
+  border: 1px solid #f4b603; }
 
 .successBtnAlt:hover, .successBtnAlt:focus {
   color: #00e19d;
