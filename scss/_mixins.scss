@@ -2,7 +2,7 @@
   font-size:($size / 16px) * 0.65em;
 }
 @mixin swissFont{
-	font-family: "HelveticaNeue", "Helvetica Neue", "Montserrat", Helvetica, Arial, sans-serif;
+	font-family:  "Helvetica Neue", Helvetica, "Montserrat",Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;  
 }
 
 @mixin lineHeight($val){
