@@ -1,49 +1,59 @@
 @mixin fontSize($size) {
-  font-size:($size / 16px) * 0.65em;
-}
-@mixin swissFont{
-	font-family:  "Helvetica Neue", Helvetica, "Montserrat",Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;  
+    font-size: ($size / 16px) * 0.65em;
 }
 
-@mixin lineHeight($val){
-	line-height: (1.4 - 0.06666666667 * $val);
+@mixin swissFont {
+    font-family: "Helvetica Neue", Helvetica, "Montserrat", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
 }
 
-@mixin colWidth($val){  
-  width: ((100/12)*$val) *1%;
-}
-@mixin opacity ( $value: 0.5 ) {
-  opacity: $value;
-  filter: alpha(opacity= $value * 100 );
-  zoom: 1;
+@mixin lineHeight($val) {
+    line-height: (1.4 - 0.06666666667 * $val);
 }
 
-@mixin headerLine(){
-		    content: "";
-        position: absolute;
-        width: 1em;
-        margin-top: $lineWidth * -1;
-        border-bottom: $lineWidth solid $primaryColor;
+@mixin colWidth($val) {
+    width: ((100/12)*$val) *1%;
+}
+
+@mixin opacity ( $value: 0.5) {
+    opacity: $value;
+    filter: alpha(opacity=$value * 100);
+    zoom: 1;
+}
+
+@mixin headerLine() {
+    content: "";
+    position: absolute;
+    width: 1em;
+    margin-top: $lineWidth * -1;
+    border-bottom: $lineWidth solid $primaryColor;
 }
 
 @mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
 }
 
 @mixin word-wrap() {
-  word-break:     break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens:    auto;
-  hyphens:         auto;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
-@mixin bannerSize($val){
-  margin-left:-$val;
-  margin-right:-$val;
-  padding-left:$val;
-  padding-right:$val;
+@mixin bannerSize($val) {
+    margin-left: -$val;
+    margin-right: -$val;
+    padding-left: $val;
+    padding-right: $val;
+}
+
+@mixin filter($val) {
+    filter: $val;
+    -webkit-filter: $val;
+    -moz-filter: $val;
+    -ms-filter: $val;
+    -o-filter: $val;
 }

@@ -19,6 +19,10 @@
     line-height: 17px;
     text-align: center;
     color: $primaryColor;
+    @include transition(background-color $animationSpeed/2 ease);
+}
+.colCheck:hover{
+    background-color:#679d53;
 }
 .row {
     display: block;

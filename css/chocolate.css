@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, "Montserrat",Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Montserrat", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.4;
@@ -77,7 +77,15 @@ hr {
   font-weight: 700;
   line-height: 17px;
   text-align: center;
-  color: #F4F4EC; }
+  color: #F4F4EC;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; }
+
+.colCheck:hover {
+  background-color: #679d53; }
 
 .row {
   display: block;
@@ -468,5 +476,40 @@ a:hover {
   font-size: 0.56875em; }
 
 /* Buttons */
+/* Images */
+img {
+  max-width: 100%;
+  display: inline-block;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+  -webkit-transition: -webkit-filter 1s; }
+
+img:hover {
+  -webkit-filter: grayscale(0%); }
+
+.smallImg {
+  max-width: 50%; }
+
+.border {
+  height: 100%;
+  width: 100%;
+  border: 5px solid #F4F4EC;
+  box-sizing: border-box; }
+
+.greyscale {
+  -webkit-filter: grayscale(100%); }
+
+.disco {
+  -webkit-animation: adjustHue 1s alternate infinite; }
+
+@-webkit-keyframes adjustHue {
+  0% {
+    -webkit-filter: hue-rotate(30deg); }
+  50% {
+    -webkit-filter: hue-rotate(60deg); }
+  100% {
+    -webkit-filter: hue-rotate(90deg); } }
+/* Images */
 
 /*# sourceMappingURL=chocolate.css.map */

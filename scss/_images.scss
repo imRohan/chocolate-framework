@@ -1,0 +1,47 @@
+/* Images */
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+    -webkit-transition: -webkit-filter 1s;
+}
+
+img:hover {
+    -webkit-filter: grayscale(0%);
+}
+.smallImg {
+    max-width: 50%;
+}
+
+.border{
+    height:100%;
+    width:100%;
+    border: 5px solid $primaryColor;
+    box-sizing: border-box;
+}
+
+.greyscale {
+    -webkit-filter: grayscale(100%);
+}
+
+.disco {
+    -webkit-animation: adjustHue 1s alternate infinite;
+}
+
+@-webkit-keyframes adjustHue {
+    0% {
+        -webkit-filter: hue-rotate(30deg);
+    }
+    50% {
+        -webkit-filter: hue-rotate(60deg);
+    }
+    100% {
+        -webkit-filter: hue-rotate(90deg);
+    }
+}
+
+
+/* Images */
