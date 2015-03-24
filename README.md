@@ -1,12 +1,11 @@
 ![Chocolate Logo](http://i.imgur.com/GpwfFvw.png)
 
 # Chocolate
-Chocolate is a Swiss styled, responsive frontend framework that is lightweight and highly customizable.
+Chocolate is an homage to the modernist graphic design movement which rose to popularity in the 1950's. This framework was built from the ground up with the twelve-column grid system in mind.
 
 ##ToDo
 
-- Button Classes
-- Swiss elements
+- Symbols
 - Responsive nav
 - Helper classes
 - Breakpoints
@@ -14,7 +13,6 @@ Chocolate is a Swiss styled, responsive frontend framework that is lightweight a
 - Alerts
 - Wells
 - Input Fields
-- Selection
 - Pagination
 
  
