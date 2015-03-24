@@ -36,6 +36,14 @@
     transition: $args;
 }
 
+@mixin filter($val){
+    -webkit-filter: $val;
+    -moz-filter: $val;
+    -ms-filter: $val;
+    -o-filter: $val;
+    filter: $val;
+}
+
 @mixin word-wrap() {
     word-break: break-word;
     -webkit-hyphens: auto;

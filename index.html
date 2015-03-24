@@ -25,7 +25,7 @@
                     <h2><small class="topHeading">Dark</small>Chocolate</h2>
                 </div>
                 <div class="offsetOneThird three col">
-                    <p class="">Chocolate is a Swiss styled, responsive front-end framework that is lightweight and highly customizable.</p>
+                    <p>Chocolate is a Swiss styled, responsive front-end framework that is lightweight and highly customizable.</p>
                 </div>
             </div>
         </div>
@@ -37,9 +37,6 @@
                 <h3>About.</h3>
                 <p>This index.html file is a placeholder. It includes the main CSS as well as normalize. This is a <a href="">link</a>
                 </p>
-                <blockquote>Grids are good for the soul
-                    <cite> - anon</cite>
-                </blockquote>
             </div>
             <div class="three col">
                 <h3>ToDo.<h3>
@@ -92,6 +89,31 @@
                 </div>
             </div>
             <div class="row">
+                <div class="three col">
+                    <div class="colCheck">three col</div>
+                </div>
+                <div class="three col">
+                    <div class="colCheck">three col</div>
+                </div>
+                <div class="three col">
+                    <div class="colCheck">three col</div>
+                </div>
+                <div class="three col">
+                    <div class="colCheck">three col</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four col">
+                    <div class="colCheck">four col</div>
+                </div>
+                <div class="four col">
+                    <div class="colCheck">four col</div>
+                </div>
+                <div class="four col">
+                    <div class="colCheck">four col</div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="four col">
                     <div class="colCheck">four col</div>
                 </div>
@@ -116,39 +138,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="four col">
-                    <div class="colCheck">four col</div>
-                </div>
-                <div class="four col">
-                    <div class="colCheck">four col</div>
-                </div>
-                <div class="four col">
-                    <div class="colCheck">four col</div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="two col">
                     <div class="colCheck">two col</div>
                 </div>
-                <div class="six col">
-                    <div class="colCheck">six col</div>
-                </div>
                 <div class="four col">
                     <div class="colCheck">four col</div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="three col">
-                    <div class="colCheck">three col</div>
-                </div>
-                <div class="three col">
-                    <div class="colCheck">three col</div>
-                </div>
-                <div class="three col">
-                    <div class="colCheck">three col</div>
-                </div>
-                <div class="three col">
-                    <div class="colCheck">three col</div>
+                <div class="six col">
+                    <div class="colCheck">six col</div>
                 </div>
             </div>
             <div class="row">
@@ -184,13 +181,17 @@
             </div>
             <div class="row">
                 <div class="half col">
-                    <h3>Headings</h3>
+                    <h3>Typography</h3>
                     <h1>H1 <small>Sub heading</small></h1>
                     <h2>H2 <small>Sub heading</small></h2>
                     <h3>H3 <small>Sub heading</small></h3>
                     <h4>H4 <small>Sub heading</small></h4>
                     <h5>H5 <small>Sub heading</small></h5>
                     <h6>H6 <small>Sub heading</small></h6>
+                    <p>Monocle ipsum dolor sit amet boeing 787 artisanal bureaux ut handsome airport. Gaggenau first-class tempor boulevard tote bag eu wardrobe cupidatat Asia-Pacific mollit Baggu. Id hand-crafted ryokan, exclusive remarkable sophisticated boulevard nulla conversation essential laborum. </p>
+                    <blockquote>Grids are good for the soul
+                        <cite> - citation needed</cite>
+                    </blockquote>
                 </div>
                 <div class="half col">
                     <h3>Buttons</h3>
@@ -210,6 +211,7 @@
                         <div class="half col">
                             <h3>Button Sizes</h3>
                             <button class="btnLarge">Large Button</button>
+                            <button>Default Button</button>
                             <button class="btnSmall">Small Button</button>
                         </div>
                         <div class="half col alt">
@@ -220,21 +222,39 @@
                 </div>
             </div>
             <div class="row">
-                <div class="half col">
+                <div class="five col alt">
                     <h3>Images</h3>
-                    <div class="half col">
-                    <img  class="smallImg greyscale border" src="http://i.imgur.com/BKvJgUj.jpg">
+                    <div class="row">
+                        <img class="quarterImg" src="http://i.imgur.com/1Naa9J6.jpg">
+                        <h5>Default</h5> 
+                        <p>Images are responsive to their parent wrapper. In this case a <code>five col</code> grid layout.</p>
+                                         
                     </div>
-                   
-                    <div class="half col">
-                    <img  class="smallImg disco round" src="http://i.imgur.com/BKvJgUj.jpg">
+                    <div class="row">
+                        <img class="quarterImg border" src="http://i.imgur.com/1Naa9J6.jpg">
+                        <h5>Border</h5>
+                        <p>Append the <code>.border</code> class </p>                  
+                    </div>
+                    <div class="row">
+                        <img class="quarterImg greyscale" src="http://i.imgur.com/1Naa9J6.jpg">
+                        <h5>Greyscale Filter</h5>  
+                        <p>Append the <code>.greyscale</code> class. Greyscale images revert to full color on <code>:hover</code></p>                    
+                    </div>
+                    <div class="row">
+                        <img class="quarterImg disco round" src="http://i.imgur.com/1Naa9J6.jpg">
+                        <h5>Disco Filter + Round Shape</h5>  
+                        <p>Append the <code>.disco</code> and <code>.round</code> classes </p>                       
                     </div>
                     
-                    </div>
-                
+                </div>
+                <div class="offsetOne six col alt">
+                <h3>Icons</h3>
+                    
+                </div>
             </div>
         </div>
-        <!-- JS goes here -->
+    </div>
+    <!-- JS goes here -->
 </body>
 
 </html>

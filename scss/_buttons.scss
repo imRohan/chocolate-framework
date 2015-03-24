@@ -155,9 +155,9 @@
 }
 
 .btnLarge{
-    line-height: $buttonSize * 1.5;
-    height: $buttonSize * 1.5;
-    @include fontSize(16px);
+    line-height: $buttonSize * 1.7;
+    height: $buttonSize * 1.7;
+    @include fontSize(18px);
 }
 .btnSmall{
     line-height: $buttonSize * 0.90;

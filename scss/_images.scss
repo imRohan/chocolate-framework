@@ -6,17 +6,24 @@ img {
     height: auto;
     float: left;
     margin-right: 2%;
-    -webkit-transition: -webkit-filter 1s;
+    @include transition(-webkit-filter 1s);
+    
 }
 
 img:hover {
-    -webkit-filter: grayscale(0%);
+    @include filter(grayscale(0%));
 }
 
 /* Image Sizes */
 
-.smallImg {
+.fullImg {
+    max-width: 100%;
+}
+.halfImg {
     max-width: 50%;
+}
+.quarterImg {
+    max-width: 20%;
 }
 
 /* Image Styles */ 
@@ -24,8 +31,8 @@ img:hover {
 .round {
     border-radius: 50%;
     overflow: hidden;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    
 }
 
 .round img {
@@ -35,9 +42,10 @@ img:hover {
 }
 
 .border {
+    margin-top:$lineWidth;
     height: 100%;
     width: 100%;
-    border: 5px solid $primaryColor;
+    border: $lineWidth solid $primaryColor;
     box-sizing: border-box;
 }
 

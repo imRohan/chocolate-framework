@@ -175,8 +175,8 @@ hr {
   .offsetQuarter.col {
     margin-left: 25%; }
 
-  .offsetOneThird.col {
-    margin-left: 30.0%; }
+  .offsetOne.col {
+    margin-left: 8.33333%; }
 
   .offsetTwoThird.col {
     margin-left: 60.0%; }
@@ -197,7 +197,7 @@ h5,
 h6,
 .big {
   display: block;
-  margin-top: 0.7rem;
+  margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
   letter-spacing: -.06rem; }
@@ -239,8 +239,8 @@ h6 {
 
 .topHeading {
   display: block;
-  margin-top: -5%;
-  margin-bottom: -1%; }
+  margin-top: -3%;
+  margin-bottom: -2%; }
 
 blockquote {
   font-size: 0.8125em;
@@ -475,9 +475,9 @@ a:hover {
   background-color: #000; }
 
 .btnLarge {
-  line-height: 45px;
-  height: 45px;
-  font-size: 0.65em; }
+  line-height: 51px;
+  height: 51px;
+  font-size: 0.73125em; }
 
 .btnSmall {
   line-height: 27px;
@@ -492,21 +492,34 @@ img {
   height: auto;
   float: left;
   margin-right: 2%;
-  -webkit-transition: -webkit-filter 1s; }
+  -webkit-transition: -webkit-filter 1s;
+  -moz-transition: -webkit-filter 1s;
+  -ms-transition: -webkit-filter 1s;
+  -o-transition: -webkit-filter 1s;
+  transition: -webkit-filter 1s; }
 
 img:hover {
-  -webkit-filter: grayscale(0%); }
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%); }
 
 /* Image Sizes */
-.smallImg {
+.fullImg {
+  max-width: 100%; }
+
+.halfImg {
   max-width: 50%; }
+
+.quarterImg {
+  max-width: 20%; }
 
 /* Image Styles */
 .round {
   border-radius: 50%;
   overflow: hidden;
-  width: 100px;
-  height: 100px; }
+  width: 100%; }
 
 .round img {
   display: block;
@@ -514,9 +527,10 @@ img:hover {
   min-height: 100%; }
 
 .border {
+  margin-top: 3px;
   height: 100%;
   width: 100%;
-  border: 5px solid #F4F4EC;
+  border: 3px solid #F4F4EC;
   box-sizing: border-box; }
 
 /* Filters */
