@@ -22,7 +22,7 @@
     @include transition(background-color $animationSpeed/2 ease);
 }
 .colCheck:hover{
-    background-color:#679d53;
+    background-color:$secondaryColor;
 }
 .row {
     display: block;
@@ -57,7 +57,7 @@
     }
     .alt {
         border-top: $lineWidth solid white;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .one.col {
         @include colWidth(1);
@@ -108,6 +108,9 @@
     }
     .offsetOne.col {
         margin-left: 8.33333%;
+    }
+    .offsetTwo.col {
+        margin-left: 16.66667%;
     }
     .offsetTwoThird.col {
         margin-left: 60.0%;
