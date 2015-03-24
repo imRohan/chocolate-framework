@@ -24,6 +24,15 @@ hr {
   color: #F4F4EC;
   background-color: #F4F4EC; }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #F4F4EC;
+  background: #f4b603; }
+
+::selection {
+  color: #F4F4EC;
+  background: #f4b603; }
+
 /* Body Styles */
 /* Helper Classes */
 .centerHor {
@@ -488,8 +497,21 @@ img {
 img:hover {
   -webkit-filter: grayscale(0%); }
 
+/* Image Sizes */
 .smallImg {
   max-width: 50%; }
+
+/* Image Styles */
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px; }
+
+.round img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%; }
 
 .border {
   height: 100%;
@@ -497,6 +519,7 @@ img:hover {
   border: 5px solid #F4F4EC;
   box-sizing: border-box; }
 
+/* Filters */
 .greyscale {
   -webkit-filter: grayscale(100%); }
 

@@ -20,4 +20,14 @@ hr{
 	background-color:$primaryColor;
 }
 
+::-moz-selection { /* Code for Firefox */
+     color: $lightFont;
+    background: $secondaryColor;
+}
+
+::selection {
+    color: $lightFont;
+    background: $secondaryColor;
+}
+
 /* Body Styles */

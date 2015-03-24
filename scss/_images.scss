@@ -12,16 +12,36 @@ img {
 img:hover {
     -webkit-filter: grayscale(0%);
 }
+
+/* Image Sizes */
+
 .smallImg {
     max-width: 50%;
 }
 
-.border{
-    height:100%;
-    width:100%;
+/* Image Styles */ 
+
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.round img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.border {
+    height: 100%;
+    width: 100%;
     border: 5px solid $primaryColor;
     box-sizing: border-box;
 }
+
+/* Filters */
 
 .greyscale {
     -webkit-filter: grayscale(100%);
