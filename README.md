@@ -1,4 +1,4 @@
-![Chocolate Logo](http://i.imgur.com/sG2g0cr.png)
+![Chocolate Logo](http://i.imgur.com/GpwfFvw.png)
 
 # Chocolate
 Chocolate is a Swiss styled, responsive frontend framework that is lightweight and highly customizable.
