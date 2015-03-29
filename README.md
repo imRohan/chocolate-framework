@@ -3,7 +3,7 @@
 # Chocolate
 Chocolate is an homage to the modernist graphic design movement which rose to popularity in the 1950's. This framework was built from the ground up with the twelve-column grid system in mind.
 
-![Live Demo](http://rohanlikhite.com/projects/chocolate/)
+[Live Demo](http://rohanlikhite.com/projects/chocolate/)
 
 
 ##ToDo
