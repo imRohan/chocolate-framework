@@ -11,14 +11,14 @@
 .colCheck {
     height: 17px;
     width: 100%;
-    background-color: #252525;
+    background-color: $codeBackground;
     border-radius: $buttonRadius;
     -moz-border-radius: 7px;
     font-size: 10px;
     font-weight: 700;
     line-height: 17px;
     text-align: center;
-    color: $primaryColor;
+    color: $codeText;
     @include transition(background-color $animationSpeed/2 ease);
 }
 .colCheck:hover{

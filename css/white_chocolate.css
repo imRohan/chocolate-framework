@@ -13,24 +13,24 @@ body {
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.4;
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #fff;
   height: 100%;
   width: 100%; }
 
 hr {
   border: none;
   height: 3px;
-  color: #F4F4EC;
-  background-color: #F4F4EC; }
+  color: #000;
+  background-color: #000; }
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: #fff;
+  color: #000;
   background: #f4b603; }
 
 ::selection {
-  color: #fff;
+  color: #000;
   background: #f4b603; }
 
 /* Body Styles */
@@ -51,8 +51,8 @@ hr {
   margin-right: -1%;
   padding-left: 1%;
   padding-right: 1%;
-  border-top: 3px solid #F4F4EC;
-  border-bottom: 0.99px solid #F4F4EC;
+  border-top: 3px solid #000;
+  border-bottom: 0.99px solid #000;
   height: 120px;
   overflow-y: hidden;
   background-color: rgba(255, 255, 255, 0.01); }
@@ -220,7 +220,7 @@ h1:before {
   position: absolute;
   width: 1em;
   margin-top: -3px;
-  border-bottom: 3px solid #F4F4EC; }
+  border-bottom: 3px solid #000; }
 
 h2 {
   font-size: 1.3em;
@@ -269,7 +269,7 @@ blockquote {
     position: absolute;
     width: 1em;
     margin-top: -3px;
-    border-bottom: 3px solid #F4F4EC; }
+    border-bottom: 3px solid #000; }
 
   h2 {
     font-size: 1.95em; }
@@ -346,8 +346,8 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000;
-  background: #fff; }
+  color: #fff;
+  background: #000; }
 
 a:active {
   top: 1px; }
@@ -396,8 +396,8 @@ a:active {
   width: 100%; }
 
 .btn, button {
-  color: #F4F4EC;
-  border: 1px solid #F4F4EC; }
+  color: #000;
+  border: 1px solid #000; }
 
 .secondaryBtn {
   color: #f4b603;
@@ -420,94 +420,94 @@ a:active {
   border: 1px solid #F62459; }
 
 .button:hover, button:hover, .button:focus, button:focus {
-  color: #000;
-  border-color: #F4F4EC;
-  background-color: #F4F4EC; }
+  color: #fff;
+  border-color: #000;
+  background-color: #000; }
 
 .secondaryBtn:hover {
-  color: #000;
+  color: #fff;
   border-color: #f4b603;
   background-color: #f4b603; }
 
 .successBtn:hover, .successBtn:focus {
-  color: #000;
+  color: #fff;
   border-color: #2ECC71;
   background-color: #2ECC71; }
 
 .infoBtn:hover, .infoBtn:focus {
-  color: #000;
+  color: #fff;
   border-color: #3498DB;
   background-color: #3498DB; }
 
 .warningBtn:hover, .warningBtn:focus {
-  color: #000;
+  color: #fff;
   border-color: #F39C12;
   background-color: #F39C12; }
 
 .dangerBtn:hover, .dangerBtn:focus {
-  color: #000;
+  color: #fff;
   border-color: #F62459;
   background-color: #F62459; }
 
 .primaryBtnAlt {
-  color: #000;
-  background-color: #F4F4EC;
-  border: 1px solid #F4F4EC; }
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000; }
 
 .secondaryBtnAlt {
-  color: #000;
+  color: #fff;
   background-color: #f4b603;
   border: 1px solid #f4b603; }
 
 .successBtnAlt {
-  color: #000;
+  color: #fff;
   background-color: #2ECC71;
   border-color: #2ECC71; }
 
 .infoBtnAlt {
-  color: #000;
+  color: #fff;
   background-color: #3498DB;
   border-color: #3498DB; }
 
 .warningBtnAlt {
-  color: #000;
+  color: #fff;
   background-color: #F39C12;
   border-color: #F39C12; }
 
 .dangerBtnAlt {
-  color: #000;
+  color: #fff;
   background-color: #F62459;
   border-color: #F62459; }
 
 .primaryBtnAlt:hover, .primaryBtnAlt:focus {
-  color: #F4F4EC;
-  background-color: #000;
-  border: 1px solid #F4F4EC; }
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000; }
 
 .secondaryBtnAlt:hover, .secondaryBtnAlt:focus {
   color: #f4b603;
-  background-color: #000;
+  background-color: #fff;
   border: 1px solid #f4b603; }
 
 .successBtnAlt:hover, .successBtnAlt:focus {
   color: #2ECC71;
-  background-color: #000;
+  background-color: #fff;
   border-color: #2ECC71; }
 
 .infoBtnAlt:hover, .infoBtnAlt:focus {
   color: #3498DB;
   border-color: #3498DB;
-  background-color: #000; }
+  background-color: #fff; }
 
 .warningBtnAlt:hover, .warningBtnAlt:focus {
   color: #F39C12;
   border-color: #F39C12;
-  background-color: #000; }
+  background-color: #fff; }
 
 .dangerBtnAlt:hover, .dangerBtnAlt:focus {
   color: #F62459;
   border-color: #F62459;
-  background-color: #000; }
+  background-color: #fff; }
 
 .btnLarge {
   line-height: 51px;
@@ -565,7 +565,7 @@ img:hover {
   margin-top: 3px;
   height: 100%;
   width: 100%;
-  border: 3px solid #F4F4EC;
+  border: 3px solid #000;
   box-sizing: border-box; }
 
 /* Filters */
@@ -584,4 +584,4 @@ img:hover {
     -webkit-filter: hue-rotate(90deg); } }
 /* Images */
 
-/*# sourceMappingURL=chocolate.css.map */
+/*# sourceMappingURL=white_chocolate.css.map */

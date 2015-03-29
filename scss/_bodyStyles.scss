@@ -8,7 +8,7 @@ body{
 	font-size: 1.5em;
 	font-weight: 400;
 	@include lineHeight(0);	
-	color: $lightFont;
+	color: $fontColor;
 	background-color:$bgColor;
 	height:100%;
 	width:100%;
@@ -21,12 +21,12 @@ hr{
 }
 
 ::-moz-selection { /* Code for Firefox */
-     color: $lightFont;
+     color: $fontColor;
     background: $secondaryColor;
 }
 
 ::selection {
-    color: $lightFont;
+    color: $fontColor;
     background: $secondaryColor;
 }
 

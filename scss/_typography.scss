@@ -127,6 +127,7 @@ cite {
 
 code {
     font-family: "Courier New", Courier, monospace;
+    color:$codeText;
     background-color: $codeBackground;
     border-radius: 3px;
     border: 1px solid $codeBackgroundDarker;
