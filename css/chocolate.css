@@ -42,6 +42,9 @@ hr {
 .upperCase {
   text-transform: uppercase; }
 
+.moveDown {
+  bottom: 0; }
+
 .banner {
   margin-top: 3%;
   margin-left: -1%;
@@ -181,6 +184,9 @@ hr {
   .offsetTwo.col {
     margin-left: 16.66667%; }
 
+  .offsetFour.col {
+    margin-left: 33.32%; }
+
   .offsetTwoThird.col {
     margin-left: 60.0%; }
 
@@ -308,21 +314,28 @@ code {
   font-family: "Courier New", Courier, monospace;
   background-color: #373636;
   border-radius: 3px;
+  border: 1px solid #4f4e4e;
   -moz-border-radius: 3px;
   font-weight: 700;
   padding: 1px 3px; }
 
 pre {
   background-color: #373636;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
   border-radius: 3px;
   -moz-border-radius: 3px;
-  padding: 0 10px;
+  padding: 10px 10px;
   font-size: 0.65em;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word; }
+
+pre code {
+  border: none; }
 
 /* Typography */
 /* Link */

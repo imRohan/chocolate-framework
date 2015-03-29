@@ -129,6 +129,7 @@ code {
     font-family: "Courier New", Courier, monospace;
     background-color: $codeBackground;
     border-radius: 3px;
+    border: 1px solid $codeBackgroundDarker;
     -moz-border-radius: 3px;
     font-weight: 700;
     padding: 1px 3px;
@@ -136,9 +137,12 @@ code {
 
 pre {
     background-color: $codeBackground;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
     border-radius: 3px;
     -moz-border-radius: 3px;
-    padding: 0 10px;
+    padding: 10px 10px;
     @include fontSize(16px);
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
@@ -146,5 +150,7 @@ pre {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
-
+pre code{
+    border: none;
+}
 /* Typography */

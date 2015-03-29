@@ -9,6 +9,10 @@
     text-transform: uppercase;
 }
 
+.moveDown{
+    bottom:0;
+}
+
 .banner {
     margin-top: 3%;
     @include bannerSize(1%);
