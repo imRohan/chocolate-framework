@@ -1,0 +1,30 @@
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+    background-color: $codeBackground;
+}
+
+th {
+    background-color: $secondaryColor;
+    @include fontSize(14px);
+    font-weight: 700;
+    text-align: left;
+    padding: 6px;
+    color: $bgColor;
+    
+}
+
+td {
+    background-color: $bgColor;
+    @include fontSize(14px);
+    font-weight: 400;
+    padding: 6px;
+    border-bottom: 1px solid $fontColor;
+    text-align: left;
+}
+
+/* Tables */
