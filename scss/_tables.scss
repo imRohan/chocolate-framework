@@ -10,6 +10,8 @@ tr:nth-of-type(odd) {
 
 th {
     background-color: $secondaryColor;
+    border:1px transparent $bgColor;
+    border-radius: $buttonRadius;
     @include fontSize(14px);
     font-weight: 700;
     text-align: left;

@@ -593,6 +593,8 @@ tr:nth-of-type(odd) {
 
 th {
   background-color: #f4b603;
+  border: 1px transparent #000;
+  border-radius: 2px;
   font-size: 0.56875em;
   font-weight: 700;
   text-align: left;
@@ -608,5 +610,17 @@ td {
   text-align: left; }
 
 /* Tables */
+/* Lists */
+ul, ol {
+  font-size: 0.56875em;
+  font-weight: 700; }
+
+ul.circle {
+  list-style-type: circle; }
+
+ol.numerical {
+  list-style-type: lower-alpha; }
+
+/* Lists */
 
 /*# sourceMappingURL=chocolate.css.map */

@@ -1,0 +1,15 @@
+/* Lists */
+
+ul, ol{
+    @include fontSize(14px);
+    font-weight: 700;
+}
+ul.circle {
+    list-style-type: circle;
+}
+
+ol.numerical {
+    list-style-type: lower-alpha;
+}
+
+/* Lists */
