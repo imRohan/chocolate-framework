@@ -1,0 +1,66 @@
+/* Icons */
+
+.circleIcon {
+    display: inline-block;
+    @include fontSize(18px);
+    font-weight: 700;
+    border-radius: 50%;
+    width: $circleIconSize;
+    height: $circleIconSize;
+    padding: 8px;
+    margin: 3% 0;
+    background-color: $fontColor;
+    color: $bgColor;
+    text-align: center;
+}
+.circleIcon.success {
+    background-color: $successColor;
+    color: $fontColor;
+}
+
+.circleIcon.danger {
+    background-color: $dangerColor;
+    color: $fontColor;
+}
+
+.circleIcon.info {
+    background-color: $infoColor;
+    color: $fontColor;
+}
+
+.circleIcon.warning {
+    background-color: $warningColor;
+    color: $fontColor;
+}
+.circleIconAlt {
+    display: inline-block;
+    @include fontSize(18px);
+    font-weight: 700;
+    border-radius: 50%;
+    width: $circleIconSize;
+    height: $circleIconSize;
+    padding: 8px;
+    margin: 3% 0;
+    background-color: $bgColor;
+    text-align: center;
+    color: $primaryColor;
+    box-shadow: 0px 0px 0px $circleBorderWidth $fontColor inset;
+}
+.circleIconAlt.warning {
+    box-shadow: 0px 0px 0px $circleBorderWidth $warningColor inset;
+}
+
+.circleIconAlt.success {
+    box-shadow: 0px 0px 0px $circleBorderWidth $successColor inset;
+}
+
+.circleIconAlt.danger {
+    box-shadow: 0px 0px 0px $circleBorderWidth $dangerColor inset;
+}
+
+.circleIconAlt.info {
+    box-shadow: 0px 0px 0px $circleBorderWidth $infoColor inset;
+}
+
+
+/* Icons */

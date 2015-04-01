@@ -9,8 +9,8 @@
     text-transform: uppercase;
 }
 
-.moveDown{
-    bottom:0;
+.moveDown {
+    bottom: 0;
 }
 
 .banner {
@@ -18,26 +18,25 @@
     @include bannerSize(1%);
     border-top: $lineWidth solid $primaryColor;
     border-bottom: ($lineWidth * 0.33) solid $primaryColor;
-    height:120px;
-    overflow-y:hidden;
-    background-color: rgba(255,255,255,0.01);
-
+    height: 120px;
+    overflow-y: hidden;
+    background-color: rgba(255, 255, 255, 0.01);
 }
 
-.success{
-	color: $successColor;
+.success {
+    color: $successColor;
 }
 
-.warning{
-	color: $warningColor;
+.warning {
+    color: $warningColor;
 }
 
-.alert{
-	color: $secondaryColor;
+.alert {
+    color: $secondaryColor;
 }
 
-.center{
-    text-align:center;
+.center {
+    text-align: center;
     align-content: center;
 }
 

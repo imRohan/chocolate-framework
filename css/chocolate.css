@@ -165,7 +165,7 @@ hr {
   .eleven.col {
     width: 91.66667%; }
 
-  .twelve.col {
+  .twelve.col, .fullWidth.col {
     width: 100%;
     margin-left: 0; }
 
@@ -593,8 +593,6 @@ tr:nth-of-type(odd) {
 
 th {
   background-color: #f4b603;
-  border: 1px transparent #000;
-  border-radius: 2px;
   font-size: 0.56875em;
   font-weight: 700;
   text-align: left;
@@ -622,5 +620,62 @@ ol.numerical {
   list-style-type: lower-alpha; }
 
 /* Lists */
+/* Icons */
+.circleIcon {
+  display: inline-block;
+  font-size: 0.73125em;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+  margin: 3% 0;
+  background-color: #fff;
+  color: #000;
+  text-align: center; }
+
+.circleIcon.success {
+  background-color: #2ECC71;
+  color: #fff; }
+
+.circleIcon.danger {
+  background-color: #F62459;
+  color: #fff; }
+
+.circleIcon.info {
+  background-color: #3498DB;
+  color: #fff; }
+
+.circleIcon.warning {
+  background-color: #F39C12;
+  color: #fff; }
+
+.circleIconAlt {
+  display: inline-block;
+  font-size: 0.73125em;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+  margin: 3% 0;
+  background-color: #000;
+  text-align: center;
+  color: #F4F4EC;
+  box-shadow: 0px 0px 0px 2px #fff inset; }
+
+.circleIconAlt.warning {
+  box-shadow: 0px 0px 0px 2px #F39C12 inset; }
+
+.circleIconAlt.success {
+  box-shadow: 0px 0px 0px 2px #2ECC71 inset; }
+
+.circleIconAlt.danger {
+  box-shadow: 0px 0px 0px 2px #F62459 inset; }
+
+.circleIconAlt.info {
+  box-shadow: 0px 0px 0px 2px #3498DB inset; }
+
+/* Icons */
 
 /*# sourceMappingURL=chocolate.css.map */

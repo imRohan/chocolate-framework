@@ -93,7 +93,7 @@
     .eleven.col {
         @include colWidth(11);
     }
-    .twelve.col {
+    .twelve.col, .fullWidth.col {
         width: 100%;
         margin-left: 0;
     }
