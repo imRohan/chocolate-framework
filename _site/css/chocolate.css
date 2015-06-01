@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: #fff;
-  background-color: #000000;
+  background-color: #1c1414;
   height: 100%;
   width: 100%; }
 
@@ -346,7 +346,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000000;
+  color: #1c1414;
   background: #fff; }
 
 a:active {
@@ -420,94 +420,94 @@ a:active {
   border: 1px solid #F62459; }
 
 .button:hover, button:hover, .button:focus, button:focus {
-  color: #000000;
+  color: #1c1414;
   border-color: #F4F4EC;
   background-color: #F4F4EC; }
 
 .secondaryBtn:hover {
-  color: #000000;
+  color: #1c1414;
   border-color: #f4b603;
   background-color: #f4b603; }
 
 .successBtn:hover, .successBtn:focus {
-  color: #000000;
+  color: #1c1414;
   border-color: #2ECC71;
   background-color: #2ECC71; }
 
 .infoBtn:hover, .infoBtn:focus {
-  color: #000000;
+  color: #1c1414;
   border-color: #3498DB;
   background-color: #3498DB; }
 
 .warningBtn:hover, .warningBtn:focus {
-  color: #000000;
+  color: #1c1414;
   border-color: #F39C12;
   background-color: #F39C12; }
 
 .dangerBtn:hover, .dangerBtn:focus {
-  color: #000000;
+  color: #1c1414;
   border-color: #F62459;
   background-color: #F62459; }
 
 .primaryBtnAlt {
-  color: #000000;
+  color: #1c1414;
   background-color: #F4F4EC;
   border: 1px solid #F4F4EC; }
 
 .secondaryBtnAlt {
-  color: #000000;
+  color: #1c1414;
   background-color: #f4b603;
   border: 1px solid #f4b603; }
 
 .successBtnAlt {
-  color: #000000;
+  color: #1c1414;
   background-color: #2ECC71;
   border-color: #2ECC71; }
 
 .infoBtnAlt {
-  color: #000000;
+  color: #1c1414;
   background-color: #3498DB;
   border-color: #3498DB; }
 
 .warningBtnAlt {
-  color: #000000;
+  color: #1c1414;
   background-color: #F39C12;
   border-color: #F39C12; }
 
 .dangerBtnAlt {
-  color: #000000;
+  color: #1c1414;
   background-color: #F62459;
   border-color: #F62459; }
 
 .primaryBtnAlt:hover, .primaryBtnAlt:focus {
   color: #F4F4EC;
-  background-color: #000000;
+  background-color: #1c1414;
   border: 1px solid #F4F4EC; }
 
 .secondaryBtnAlt:hover, .secondaryBtnAlt:focus {
   color: #f4b603;
-  background-color: #000000;
+  background-color: #1c1414;
   border: 1px solid #f4b603; }
 
 .successBtnAlt:hover, .successBtnAlt:focus {
   color: #2ECC71;
-  background-color: #000000;
+  background-color: #1c1414;
   border-color: #2ECC71; }
 
 .infoBtnAlt:hover, .infoBtnAlt:focus {
   color: #3498DB;
   border-color: #3498DB;
-  background-color: #000000; }
+  background-color: #1c1414; }
 
 .warningBtnAlt:hover, .warningBtnAlt:focus {
   color: #F39C12;
   border-color: #F39C12;
-  background-color: #000000; }
+  background-color: #1c1414; }
 
 .dangerBtnAlt:hover, .dangerBtnAlt:focus {
   color: #F62459;
   border-color: #F62459;
-  background-color: #000000; }
+  background-color: #1c1414; }
 
 .btnLarge {
   line-height: 51px;
@@ -597,10 +597,10 @@ th {
   font-weight: 700;
   text-align: left;
   padding: 6px;
-  color: #000000; }
+  color: #1c1414; }
 
 td {
-  background-color: #000000;
+  background-color: #1c1414;
   font-size: 0.56875em;
   font-weight: 400;
   padding: 6px;
@@ -631,7 +631,7 @@ ol.numerical {
   padding: 8px;
   margin: 3% 0;
   background-color: #fff;
-  color: #000000;
+  color: #1c1414;
   text-align: center; }
 
 .circleIcon.success {
@@ -659,7 +659,7 @@ ol.numerical {
   height: 25px;
   padding: 8px;
   margin: 3% 0;
-  background-color: #000000;
+  background-color: #1c1414;
   text-align: center;
   color: #F4F4EC;
   box-shadow: 0px 0px 0px 2px #fff inset; }
