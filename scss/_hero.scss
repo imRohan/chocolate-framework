@@ -1,0 +1,37 @@
+/* Hero */
+
+#hero {
+    @include rounded();
+    min-height: 200px;
+    max-height: 300px;
+    margin-left: 0;
+    overflow: hidden;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
+    padding: 0% 2% 3% 3%;
+}
+#hero .headerLine {
+    color: $primaryColor;
+    font-size: 3em;
+    @include lineHeight(1);
+    padding-top: 5%;
+
+}
+
+#hero .big {
+    @include fontSize(100px);
+    @include lineHeight(0);
+}
+
+#hero p{
+    font-weight: 400;
+    color: lighten($darkFont, 10%);
+    @include fontSize(20px);
+    @include lineHeight(5);
+}
+/* Hero */

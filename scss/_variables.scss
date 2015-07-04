@@ -8,9 +8,9 @@ $darkFont: #888;
 $lightFont: #F4F4EC;
 
 $primaryColor: #F4F4EC; //white
-$primaryColorLight: pink;
+$primaryColorLight: lighten($primaryColor, 30%);
 $secondaryColor: #f4b603; //yellow
-$secondaryColorLight: blue;
+$secondaryColorLight: lighten($secondaryColor, 30%);;
 
 $successColor: #2ECC71;
 $infoColor: #3498DB;

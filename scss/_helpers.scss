@@ -8,7 +8,9 @@
 .upperCase {
     text-transform: uppercase;
 }
-
+.altColor{
+    color: $secondaryColor;
+}
 .moveDown {
     bottom: 0;
 }
@@ -18,7 +20,7 @@
     @include bannerSize(1%);
     border-top: $lineWidth solid $primaryColor;
     border-bottom: ($lineWidth * 0.33) solid $primaryColor;
-    height: 120px;
+    height: 10%;
     overflow-y: hidden;
     background-color: rgba(255, 255, 255, 0.01);
 }

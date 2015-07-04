@@ -1,9 +1,44 @@
 /*
 * Chocolate
 */
-/* Body Styles */
+/* Hero */
 @import url(http://fonts.googleapis.com/css?family=Lora);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
+#hero {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  min-height: 200px;
+  max-height: 300px;
+  margin-left: 0;
+  overflow: hidden;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+  padding: 0% 2% 3% 3%; }
+
+#hero .headerLine {
+  color: #F4F4EC;
+  font-size: 3em;
+  line-height: 1.33333;
+  padding-top: 5%; }
+
+#hero .big {
+  font-size: 4.0625em;
+  line-height: 1.4; }
+
+#hero p {
+  font-weight: 400;
+  color: #a2a2a2;
+  font-size: 0.8125em;
+  line-height: 1.06667; }
+
+/* Hero */
+/* Body Styles */
 html {
   width: 100%;
   height: 100%; }
@@ -42,6 +77,9 @@ hr {
 .upperCase {
   text-transform: uppercase; }
 
+.altColor {
+  color: #f4b603; }
+
 .moveDown {
   bottom: 0; }
 
@@ -53,7 +91,7 @@ hr {
   padding-right: 1%;
   border-top: 3px solid #F4F4EC;
   border-bottom: 0.99px solid #F4F4EC;
-  height: 120px;
+  height: 10%;
   overflow-y: hidden;
   background-color: rgba(255, 255, 255, 0.01); }
 
@@ -204,7 +242,8 @@ h3,
 h4,
 h5,
 h6,
-.big {
+.big,
+.headerLine {
   display: block;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -337,6 +376,10 @@ pre {
 
 pre code {
   border: none; }
+
+.highlight {
+  background-color: #dba303;
+  padding: 0.5%; }
 
 /* Typography */
 /* Link */
