@@ -6,13 +6,13 @@
     max-height: 300px;
     margin-left: 0;
     overflow: hidden;
-    background-image: -webkit-repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
-    background-image: repeating-radial-gradient(center center, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 100%);
-    -webkit-background-size: 3px 3px;
-    -moz-background-size: 3px 3px;
-    background-size: 3px 3px;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(255, 255, 255, .25), rgba(255, 255, 255, .25) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(255, 255, 255, .25), rgba(255, 255, 255, .25) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(255, 255, 255, .25), rgba(255, 255, 255, .25) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(255, 255, 255, .25), rgba(255, 255, 255, .25) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 5px 5px;
+    -moz-background-size: 5px 5px;
+    background-size: 5px 5px;
     padding: 0% 2% 3% 3%;
 }
 #hero .headerLine {
