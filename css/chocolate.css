@@ -27,6 +27,9 @@
   line-height: 1.33333;
   padding-top: 5%; }
 
+@media only screen and (max-width: 400px) {
+  #hero .headerLine {
+    font-size: 1.55em; } }
 #hero .big {
   font-size: 4.0625em;
   line-height: 1.4; }
@@ -37,6 +40,10 @@
   font-size: 0.8125em;
   line-height: 1.06667; }
 
+@media only screen and (max-width: 400px) {
+  #hero p {
+    font-size: 0.60938em;
+    line-height: 1.26667; } }
 /* Hero */
 /* Body Styles */
 html {

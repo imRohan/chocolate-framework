@@ -22,6 +22,11 @@
     padding-top: 5%;
 
 }
+@media only screen and (max-width: 400px) {
+  #hero .headerLine {
+      font-size: 1.55em;
+  }
+}
 
 #hero .big {
     @include fontSize(100px);
@@ -34,4 +39,11 @@
     @include fontSize(20px);
     @include lineHeight(5);
 }
+@media only screen and (max-width: 400px) {
+  #hero p{
+    @include fontSize(15px);
+    @include lineHeight(2);
+  }
+}
+
 /* Hero */
