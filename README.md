@@ -5,7 +5,8 @@ Chocolate is an homage to the modernist graphic design movement which rose to po
 
 [Live Demo](http://rohanlikhite.com/projects/chocolate/)
 
-
+![Uses CSS](http://forthebadge.com/images/badges/uses-css.svg) 
+![ooohkillem](http://forthebadge.com/images/badges/oooo-kill-em.svg)
 ##ToDo
 
 - Symbols
