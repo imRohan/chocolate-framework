@@ -35,7 +35,7 @@ Contributions are more than welcome. I'd love to hear any feedback, suggestions,
 
 Chocolate Bar Logo designed by Amos Kofi Commey
 
-##MIT License
+## MIT License
 
 
 Copyright (c) 2016 Rohan Likhite
